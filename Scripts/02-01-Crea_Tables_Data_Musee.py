@@ -146,7 +146,7 @@ def Insertion_Data_Region():
    # Temps d'exécution du programme
    start_time = time.time()
 
-   data_region = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Regions.csv', sep=';', engine='python', encoding='utf-8')
+   data_region = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Regions.csv', sep=';', engine='python', encoding='utf-8')
    print('Total Region à insérer :', data_region.shape[0])
 
    Insertion_Donnees = ''' 
@@ -163,7 +163,7 @@ def Insertion_Data_Departement():
    # Temps d'exécution du programme
    start_time = time.time()
    
-   data_departement = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Departements.csv', sep=';', engine='python', encoding='utf-8')
+   data_departement = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Departements.csv', sep=';', engine='python', encoding='utf-8')
    print('Total dépatement à insérer :', data_departement.shape[0])
 
    Insertion_Donnees = ''' 
@@ -182,7 +182,7 @@ def Insertion_Data_Musee():
    # Temps d'exécution du programme
    start_time = time.time()
 
-   data_musees = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Musees.csv', sep=';', engine='python', encoding='utf-8')
+   data_musees = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Musees.csv', sep=';', engine='python', encoding='utf-8')
    print('Total Musee à insérer :', data_musees.shape[0])
    
    Insertion_Donnees = ''' 

@@ -27,11 +27,11 @@ conn = functions_PgSql.ouvrir_connection(ma_base_donnees, utilisateur, mot_passe
 
 # -------------------------------- DATAFRAMES --------------------------------#
 
-Lire = 'sculptures'
-Table_Artistes = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Auteurs_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
-Table_Domaines = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Domaines_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
-Table_Inventaire = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Inventaire_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
-Table_Oeuvres = pd.read_csv('C:/Users/utilisateur/SIMPLON/DEV-DATA/projet-chef-d-oeuvre/Version_3/Data/Csv_Bdd/Table_Oeuvres_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
+Lire = 'arts-decoratifs'
+Table_Artistes = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Auteurs_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
+Table_Domaines = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Domaines_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
+Table_Inventaire = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Inventaire_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
+Table_Oeuvres = pd.read_csv('C:/Users/maell/DEV_DATA/Musees_App/Scripts/Data/Csv_Bdd/Table_Oeuvres_'+Lire+'.csv', sep=';', engine='python', encoding='utf-8')
 
 
 # ---------------------- INSERTION DONNEES TABLES PRINCIPALES ----------------#
