@@ -1,0 +1,103 @@
+code_dpt;dpt;region;code_region
+1;Ain;Auvergne-Rhône-Alpes;FR71
+2;Aisne;Hauts-de-France;FR22
+3;Allier;Auvergne-Rhône-Alpes;FR71
+4;Alpes-de-Haute-Provence;Provence-Alpes-Côte d'Azur;FR82
+5;Hautes-Alpes;Provence-Alpes-Côte d'Azur;FR82
+6;Alpes-Maritimes;Provence-Alpes-Côte d'Azur;FR82
+7;Ardèche;Auvergne-Rhône-Alpes;FR71
+8;Ardennes;Grand Est;FR21
+9;Ariège;Occitanie;FR62
+10;Aube;Grand Est;FR21
+11;Aude;Occitanie;FR62
+12;Aveyron;Occitanie;FR62
+13;Bouches-du-Rhône;Provence-Alpes-Côte d'Azur;FR82
+14;Calvados;Normandie;FR25
+15;Cantal;Auvergne-Rhône-Alpes;FR71
+16;Charente;Nouvelle-Aquitaine;FR61
+17;Charente-Maritime;Nouvelle-Aquitaine;FR61
+18;Cher;Centre-Val de Loire;FR24
+19;Corrèze;Nouvelle-Aquitaine;FR61
+201;Corse-du-Sud;Corse;FR83
+202;Haute-Corse;Corse;FR83
+21;Côte-d'Or;Bourgogne-Franche-Comté;FR26
+22;Côtes-d'Armor;Bretagne;FR52
+23;Creuse;Nouvelle-Aquitaine;FR61
+24;Dordogne;Nouvelle-Aquitaine;FR61
+25;Doubs;Bourgogne-Franche-Comté;FR26
+26;Drôme;Auvergne-Rhône-Alpes;FR71
+27;Eure;Normandie;FR25
+28;Eure-et-Loir;Centre-Val de Loire;FR24
+29;Finistère;Bretagne;FR52
+30;Gard;Occitanie;FR62
+31;Haute-Garonne;Occitanie;FR62
+32;Gers;Occitanie;FR62
+33;Gironde;Nouvelle-Aquitaine;FR61
+34;Hérault;Occitanie;FR62
+35;Ille-et-Vilaine;Bretagne;FR52
+36;Indre;Centre-Val de Loire;FR24
+37;Indre-et-Loire;Centre-Val de Loire;FR24
+38;Isère;Auvergne-Rhône-Alpes;FR71
+39;Jura;Bourgogne-Franche-Comté;FR26
+40;Landes;Nouvelle-Aquitaine;FR61
+41;Loir-et-Cher;Centre-Val de Loire;FR24
+42;Loire;Auvergne-Rhône-Alpes;FR71
+43;Haute-Loire;Auvergne-Rhône-Alpes;FR71
+44;Loire-Atlantique;Pays-de-la-Loire;FR51
+45;Loiret;Centre-Val de Loire;FR24
+46;Lot;Occitanie;FR62
+47;Lot-et-Garonne;Nouvelle-Aquitaine;FR61
+48;Lozère;Occitanie;FR62
+49;Maine-et-Loire;Pays-de-la-Loire;FR51
+50;Manche;Normandie;FR25
+51;Marne;Grand Est;FR21
+52;Haute-Marne;Grand Est;FR21
+53;Mayenne;Pays-de-la-Loire;FR51
+54;Meurthe-et-Moselle;Grand Est;FR21
+55;Meuse;Grand Est;FR21
+56;Morbihan;Bretagne;FR52
+57;Moselle;Grand Est;FR21
+58;Nièvre;Bourgogne-Franche-Comté;FR26
+59;Nord;Hauts-de-France;FR22
+60;Oise;Hauts-de-France;FR22
+61;Orne;Normandie;FR25
+62;Pas-de-Calais;Hauts-de-France;FR22
+63;Puy-de-Dôme;Auvergne-Rhône-Alpes;FR71
+64;Pyrénées-Atlantiques;Nouvelle-Aquitaine;FR61
+65;Hautes-Pyrénées;Occitanie;FR62
+66;Pyrénées-Orientales;Occitanie;FR62
+67;Bas-Rhin;Grand Est;FR21
+68;Haut-Rhin;Grand Est;FR21
+69;Rhône;Auvergne-Rhône-Alpes;FR71
+70;Haute-Saône;Bourgogne-Franche-Comté;FR26
+71;Saône-et-Loire;Bourgogne-Franche-Comté;FR26
+72;Sarthe;Pays-de-la-Loire;FR51
+73;Savoie;Auvergne-Rhône-Alpes;FR71
+74;Haute-Savoie;Auvergne-Rhône-Alpes;FR71
+75;Paris;Ile-de-France;FR10
+76;Seine-Maritime;Normandie;FR25
+77;Seine-et-Marne;Ile-de-France;FR10
+78;Yvelines;Ile-de-France;FR10
+79;Deux-Sèvres;Nouvelle-Aquitaine;FR61
+80;Somme;Hauts-de-France;FR22
+81;Tarn;Occitanie;FR62
+82;Tarn-et-Garonne;Occitanie;FR62
+83;Var;Provence-Alpes-Côte d'Azur;FR82
+84;Vaucluse;Provence-Alpes-Côte d'Azur;FR82
+85;Vendée;Pays-de-la-Loire;FR51
+86;Vienne;Nouvelle-Aquitaine;FR61
+87;Haute-Vienne;Nouvelle-Aquitaine;FR61
+88;Vosges;Grand Est;FR21
+89;Yonne;Bourgogne-Franche-Comté;FR26
+90;Territoire de Belfort;Bourgogne-Franche-Comté;FR26
+91;Essonne;Ile-de-France;FR10
+92;Hauts-de-Seine;Ile-de-France;FR10
+93;Seine-Saint-Denis;Ile-de-France;FR10
+94;Val-de-Marne;Ile-de-France;FR10
+95;Val-d'Oise;Ile-de-France;FR10
+971;Guadeloupe;DROM;FRA
+973;Guyane;DROM;FRA
+972;Martinique;DROM;FRA
+976;Mayotte;DROM;FRA
+974;Réunion;DROM;FRA
+975;Saint-Pierre-et-Miquelon;COM;FRZ
