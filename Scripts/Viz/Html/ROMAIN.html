@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_faedef3c84614774830c5780261b118e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_faedef3c84614774830c5780261b118e" ></div>
+        
+</body>
+<script>    
+    
+            var map_faedef3c84614774830c5780261b118e = L.map(
+                "map_faedef3c84614774830c5780261b118e",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Lieu d\u0027expostion par domaine",
+                }
+            );
+            L.control.scale().addTo(map_faedef3c84614774830c5780261b118e);
+
+            
+
+        
+    
+            var tile_layer_282e08000e2445db8a85b92e6b897c4e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var marker_a91ae861bfa642a2ad7c5e7b9baa6f83 = L.marker(
+                [49.890413, 2.295968],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_0ac4b4c2bf864a22998cca9ac87d1799 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a91ae861bfa642a2ad7c5e7b9baa6f83.setIcon(icon_0ac4b4c2bf864a22998cca9ac87d1799);
+        
+    
+        var popup_103037f12b864cc18846a8411b352cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35adc5f6ec284164bfd598c1378a15ed = $(`<div id="html_35adc5f6ec284164bfd598c1378a15ed" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée de Picardie ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_103037f12b864cc18846a8411b352cb8.setContent(html_35adc5f6ec284164bfd598c1378a15ed);
+        
+
+        marker_a91ae861bfa642a2ad7c5e7b9baa6f83.bindPopup(popup_103037f12b864cc18846a8411b352cb8)
+        ;
+
+        
+    
+    
+            var marker_b04f8b7dc711439f8f6bde300d35f7a3 = L.marker(
+                [45.587605, 5.60661],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_f26c584629274108b84e95bda215f90d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b04f8b7dc711439f8f6bde300d35f7a3.setIcon(icon_f26c584629274108b84e95bda215f90d);
+        
+    
+        var popup_ba394c1541354717a40d4d680105f691 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b8d4d9e616f411c9e9cccf9621b020f = $(`<div id="html_5b8d4d9e616f411c9e9cccf9621b020f" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée des antiquités gallo-romaines ,283 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_ba394c1541354717a40d4d680105f691.setContent(html_5b8d4d9e616f411c9e9cccf9621b020f);
+        
+
+        marker_b04f8b7dc711439f8f6bde300d35f7a3.bindPopup(popup_ba394c1541354717a40d4d680105f691)
+        ;
+
+        
+    
+    
+            var marker_156a5c85ccbd4cd48f66e3b7eb820ae6 = L.marker(
+                [43.67679, 4.61542],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_8497dce2ee9d4905a22664d8944a4729 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_156a5c85ccbd4cd48f66e3b7eb820ae6.setIcon(icon_8497dce2ee9d4905a22664d8944a4729);
+        
+    
+        var popup_66ad6526ad5e45c9b6a08afe45dbbca0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3675f7165ae04ec3a1abfe81ef9707e4 = $(`<div id="html_3675f7165ae04ec3a1abfe81ef9707e4" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée de la Camargue ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_66ad6526ad5e45c9b6a08afe45dbbca0.setContent(html_3675f7165ae04ec3a1abfe81ef9707e4);
+        
+
+        marker_156a5c85ccbd4cd48f66e3b7eb820ae6.bindPopup(popup_66ad6526ad5e45c9b6a08afe45dbbca0)
+        ;
+
+        
+    
+    
+            var marker_f3804b9137c24952875377183a2db7df = L.marker(
+                [46.945723, 4.299216],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_795e8de82b564553b1403e118e54a9a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f3804b9137c24952875377183a2db7df.setIcon(icon_795e8de82b564553b1403e118e54a9a2);
+        
+    
+        var popup_c994a5536ae04af68c34754a07404329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b1b45782d6d46d09076c167e0d5663a = $(`<div id="html_0b1b45782d6d46d09076c167e0d5663a" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Rolin ,851 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_c994a5536ae04af68c34754a07404329.setContent(html_0b1b45782d6d46d09076c167e0d5663a);
+        
+
+        marker_f3804b9137c24952875377183a2db7df.bindPopup(popup_c994a5536ae04af68c34754a07404329)
+        ;
+
+        
+    
+    
+            var marker_4deddf9bdd574c2791c9fba3daacfff3 = L.marker(
+                [47.240055, 6.022938],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_f1af4c9898a7454891da5f9801dfb37e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4deddf9bdd574c2791c9fba3daacfff3.setIcon(icon_f1af4c9898a7454891da5f9801dfb37e);
+        
+    
+        var popup_2e27317d7c8d48c7af02d407a6b424ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bdca61918d646cb88fe8ab386076c02 = $(`<div id="html_0bdca61918d646cb88fe8ab386076c02" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée des Beaux-Arts et d'Archéologie ,30 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_2e27317d7c8d48c7af02d407a6b424ca.setContent(html_0bdca61918d646cb88fe8ab386076c02);
+        
+
+        marker_4deddf9bdd574c2791c9fba3daacfff3.bindPopup(popup_2e27317d7c8d48c7af02d407a6b424ca)
+        ;
+
+        
+    
+    
+            var marker_590a0fcb162b4e71b2e2c492cf5f63d3 = L.marker(
+                [47.083735, 2.39325],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_decc1bfd654c43c38bb6212fae131f36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_590a0fcb162b4e71b2e2c492cf5f63d3.setIcon(icon_decc1bfd654c43c38bb6212fae131f36);
+        
+    
+        var popup_c129d68d5afd486986603fbd37e3ce9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_306033d974f646f09824e0759c1defa4 = $(`<div id="html_306033d974f646f09824e0759c1defa4" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée du Berry ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_c129d68d5afd486986603fbd37e3ce9a.setContent(html_306033d974f646f09824e0759c1defa4);
+        
+
+        marker_590a0fcb162b4e71b2e2c492cf5f63d3.bindPopup(popup_c129d68d5afd486986603fbd37e3ce9a)
+        ;
+
+        
+    
+    
+            var marker_0df43501742646428dcb789ad94f9458 = L.marker(
+                [49.525351, 0.725967],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_8d2dac2e720d4135ae251d353374b66d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_0df43501742646428dcb789ad94f9458.setIcon(icon_8d2dac2e720d4135ae251d353374b66d);
+        
+    
+        var popup_41ca7e88534141ca8c4846fa91b55741 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2baf02917f184682ad46b228d0eddf1f = $(`<div id="html_2baf02917f184682ad46b228d0eddf1f" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,maison des templiers ,42 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_41ca7e88534141ca8c4846fa91b55741.setContent(html_2baf02917f184682ad46b228d0eddf1f);
+        
+
+        marker_0df43501742646428dcb789ad94f9458.bindPopup(popup_41ca7e88534141ca8c4846fa91b55741)
+        ;
+
+        
+    
+    
+            var marker_e31da41e6cf640cd817f1bca067bfb63 = L.marker(
+                [46.78105, 4.853082],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_5e1a901c47e44a1796e3908816238154 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e31da41e6cf640cd817f1bca067bfb63.setIcon(icon_5e1a901c47e44a1796e3908816238154);
+        
+    
+        var popup_6932fa1740a2406ebdc0869e91d7b71b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a77156e32684702b20f14ef7b2edcab = $(`<div id="html_9a77156e32684702b20f14ef7b2edcab" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Vivant Denon ,675 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_6932fa1740a2406ebdc0869e91d7b71b.setContent(html_9a77156e32684702b20f14ef7b2edcab);
+        
+
+        marker_e31da41e6cf640cd817f1bca067bfb63.bindPopup(popup_6932fa1740a2406ebdc0869e91d7b71b)
+        ;
+
+        
+    
+    
+            var marker_6c6d3e7fe1a34b809e9bea9b30427ebb = L.marker(
+                [49.1938524, 2.485299],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_6eaa966977274699998fe1e8dc249274 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6c6d3e7fe1a34b809e9bea9b30427ebb.setIcon(icon_6eaa966977274699998fe1e8dc249274);
+        
+    
+        var popup_d011ff32f1254d46ac1b08f4d5218877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_223787fef48743258f1bf4ce60fec3b5 = $(`<div id="html_223787fef48743258f1bf4ce60fec3b5" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,Musée Condé ,2 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_d011ff32f1254d46ac1b08f4d5218877.setContent(html_223787fef48743258f1bf4ce60fec3b5);
+        
+
+        marker_6c6d3e7fe1a34b809e9bea9b30427ebb.bindPopup(popup_d011ff32f1254d46ac1b08f4d5218877)
+        ;
+
+        
+    
+    
+            var marker_d1a2fe830a4246ff89c3632034f3ae8b = L.marker(
+                [46.813737, 1.694262],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_0101036d7b0b4466b96932a76873b50d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d1a2fe830a4246ff89c3632034f3ae8b.setIcon(icon_0101036d7b0b4466b96932a76873b50d);
+        
+    
+        var popup_acd1442dd9e648eaa188dc207c93a9bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aec1342756043a99a8e823c0e6d487a = $(`<div id="html_5aec1342756043a99a8e823c0e6d487a" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Bertrand ,2 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_acd1442dd9e648eaa188dc207c93a9bc.setContent(html_5aec1342756043a99a8e823c0e6d487a);
+        
+
+        marker_d1a2fe830a4246ff89c3632034f3ae8b.bindPopup(popup_acd1442dd9e648eaa188dc207c93a9bc)
+        ;
+
+        
+    
+    
+            var marker_6618573c78a2407aafae5fb52b8fa79c = L.marker(
+                [48.079918, 7.355464],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_bd063fb605074390a9de98a17d27cbff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6618573c78a2407aafae5fb52b8fa79c.setIcon(icon_bd063fb605074390a9de98a17d27cbff);
+        
+    
+        var popup_5d961874984b46b1a7c6b59b71c64539 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52a8694a6b004c649d91cd8e9f6cc6b7 = $(`<div id="html_52a8694a6b004c649d91cd8e9f6cc6b7" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée d'Unterlinden ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_5d961874984b46b1a7c6b59b71c64539.setContent(html_52a8694a6b004c649d91cd8e9f6cc6b7);
+        
+
+        marker_6618573c78a2407aafae5fb52b8fa79c.bindPopup(popup_5d961874984b46b1a7c6b59b71c64539)
+        ;
+
+        
+    
+    
+            var marker_c467579690de43b79214a45b8967ec8e = L.marker(
+                [49.417414, 2.821526],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_bf64d1ddecad477f9ff936ac77dfc1cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c467579690de43b79214a45b8967ec8e.setIcon(icon_bf64d1ddecad477f9ff936ac77dfc1cb);
+        
+    
+        var popup_a1f611b5911d484f9447e9f3b92bdbcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b4e5c017d734858b4521f91e03b48e9 = $(`<div id="html_7b4e5c017d734858b4521f91e03b48e9" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Antoine Vivenel ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_a1f611b5911d484f9447e9f3b92bdbcd.setContent(html_7b4e5c017d734858b4521f91e03b48e9);
+        
+
+        marker_c467579690de43b79214a45b8967ec8e.bindPopup(popup_a1f611b5911d484f9447e9f3b92bdbcd)
+        ;
+
+        
+    
+    
+            var marker_a671e03a20de4d528ae271f78ccf76a4 = L.marker(
+                [47.410548, 2.922768],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_8bd1a19eea3646209d5992ecc03836d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a671e03a20de4d528ae271f78ccf76a4.setIcon(icon_8bd1a19eea3646209d5992ecc03836d7);
+        
+    
+        var popup_05e25484d77f436a92b874509486015b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef7193e5d741409daa7a6eea369acb44 = $(`<div id="html_ef7193e5d741409daa7a6eea369acb44" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée de la Loire ,4 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_05e25484d77f436a92b874509486015b.setContent(html_ef7193e5d741409daa7a6eea369acb44);
+        
+
+        marker_a671e03a20de4d528ae271f78ccf76a4.bindPopup(popup_05e25484d77f436a92b874509486015b)
+        ;
+
+        
+    
+    
+            var marker_d34f5e25d2b24f79b4dae77c2855b7b8 = L.marker(
+                [48.17326, 6.446595],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_e47442b61c004521872515dd22cfd42c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d34f5e25d2b24f79b4dae77c2855b7b8.setIcon(icon_e47442b61c004521872515dd22cfd42c);
+        
+    
+        var popup_a84825102b0544b28e46d3707034d104 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe54a309143f4b62b3e4043eca9d76f2 = $(`<div id="html_fe54a309143f4b62b3e4043eca9d76f2" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée départemental d'Art Ancien et Contemporain ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_a84825102b0544b28e46d3707034d104.setContent(html_fe54a309143f4b62b3e4043eca9d76f2);
+        
+
+        marker_d34f5e25d2b24f79b4dae77c2855b7b8.bindPopup(popup_a84825102b0544b28e46d3707034d104)
+        ;
+
+        
+    
+    
+            var marker_3f9013d6f2f54534b20184c28626cbb0 = L.marker(
+                [49.023998, 1.1502],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_d3cc93014a0440fcb7da6293e94d6363 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3f9013d6f2f54534b20184c28626cbb0.setIcon(icon_d3cc93014a0440fcb7da6293e94d6363);
+        
+    
+        var popup_2e438e93112c4f3f96249ffa15c90674 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f1befa4ebdb41f19765806bae1d3bb9 = $(`<div id="html_1f1befa4ebdb41f19765806bae1d3bb9" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée de l'ancien évêché ,51 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_2e438e93112c4f3f96249ffa15c90674.setContent(html_1f1befa4ebdb41f19765806bae1d3bb9);
+        
+
+        marker_3f9013d6f2f54534b20184c28626cbb0.bindPopup(popup_2e438e93112c4f3f96249ffa15c90674)
+        ;
+
+        
+    
+    
+            var marker_d9fd5fbaa1d4443ab16784aa9d1ba357 = L.marker(
+                [45.194026, 5.732094],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_7853136a7c1f486e81c0308ceb0812d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d9fd5fbaa1d4443ab16784aa9d1ba357.setIcon(icon_7853136a7c1f486e81c0308ceb0812d7);
+        
+    
+        var popup_2819ea5df07a40648e64342269904c7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db6242cdaff8411790949d28f18c0778 = $(`<div id="html_db6242cdaff8411790949d28f18c0778" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée de Grenoble ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_2819ea5df07a40648e64342269904c7a.setContent(html_db6242cdaff8411790949d28f18c0778);
+        
+
+        marker_d9fd5fbaa1d4443ab16784aa9d1ba357.bindPopup(popup_2819ea5df07a40648e64342269904c7a)
+        ;
+
+        
+    
+    
+            var marker_d2069922cae44821b29e11813461adb2 = L.marker(
+                [48.255526, -0.496863],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_28ef79cf6bdc4ec18ca752cc24376f0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d2069922cae44821b29e11813461adb2.setIcon(icon_28ef79cf6bdc4ec18ca752cc24376f0e);
+        
+    
+        var popup_dae32bdaf457454080a0f30546de3a75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48151b30f1ac4e56928dcc6473491eb1 = $(`<div id="html_48151b30f1ac4e56928dcc6473491eb1" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée archéologique départemental ,29 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_dae32bdaf457454080a0f30546de3a75.setContent(html_48151b30f1ac4e56928dcc6473491eb1);
+        
+
+        marker_d2069922cae44821b29e11813461adb2.bindPopup(popup_dae32bdaf457454080a0f30546de3a75)
+        ;
+
+        
+    
+    
+            var marker_23bb2110f2d64cc29ccaa94d975b2905 = L.marker(
+                [45.827628, 3.383654],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_4870e2e881084ec9a3c50e58a28b7c99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_23bb2110f2d64cc29ccaa94d975b2905.setIcon(icon_4870e2e881084ec9a3c50e58a28b7c99);
+        
+    
+        var popup_36a4490f503d4785aff7a0f39c1306e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7550446ff0e24fa7bfd29291322827e9 = $(`<div id="html_7550446ff0e24fa7bfd29291322827e9" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée de Céramique Gallo-Romaine ,10 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_36a4490f503d4785aff7a0f39c1306e1.setContent(html_7550446ff0e24fa7bfd29291322827e9);
+        
+
+        marker_23bb2110f2d64cc29ccaa94d975b2905.bindPopup(popup_36a4490f503d4785aff7a0f39c1306e1)
+        ;
+
+        
+    
+    
+            var marker_8d1b991fffb249f48be82340d961a614 = L.marker(
+                [49.041117, 2.50695],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_140c7ba92a614121a61e31deeadf5b7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8d1b991fffb249f48be82340d961a614.setIcon(icon_140c7ba92a614121a61e31deeadf5b7f);
+        
+    
+        var popup_7a033e18bd6d4078871bee26e85b00fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a095126f0ea48fbba650b81e9297548 = $(`<div id="html_2a095126f0ea48fbba650b81e9297548" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,ARCHÉA, Archéologie en Pays de France ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_7a033e18bd6d4078871bee26e85b00fc.setContent(html_2a095126f0ea48fbba650b81e9297548);
+        
+
+        marker_8d1b991fffb249f48be82340d961a614.bindPopup(popup_7a033e18bd6d4078871bee26e85b00fc)
+        ;
+
+        
+    
+    
+            var marker_a380710d9bcb42839c7d8506a24fcb4f = L.marker(
+                [45.760529, 4.82004],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_5572de7bc46743db9c53b562c164322a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a380710d9bcb42839c7d8506a24fcb4f.setIcon(icon_5572de7bc46743db9c53b562c164322a);
+        
+    
+        var popup_28e6d7072aa2449faf412833ae8836c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_778ee7d531594fd0b0804fc70795940e = $(`<div id="html_778ee7d531594fd0b0804fc70795940e" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,Lugdunum-musée et théâtres romains ,28 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_28e6d7072aa2449faf412833ae8836c5.setContent(html_778ee7d531594fd0b0804fc70795940e);
+        
+
+        marker_a380710d9bcb42839c7d8506a24fcb4f.bindPopup(popup_28e6d7072aa2449faf412833ae8836c5)
+        ;
+
+        
+    
+    
+            var marker_e8f3b5da9bf14ab3a84d98ed205bfaff = L.marker(
+                [46.307508, 4.833156],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_2590782dae0844de839f719962d64c8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e8f3b5da9bf14ab3a84d98ed205bfaff.setIcon(icon_2590782dae0844de839f719962d64c8c);
+        
+    
+        var popup_c507973849e046ccab7e9a14b72dd523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf4300dccfe44b6687efcd1ba7ee97db = $(`<div id="html_cf4300dccfe44b6687efcd1ba7ee97db" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée des ursulines musée Lamartine ,5 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_c507973849e046ccab7e9a14b72dd523.setContent(html_cf4300dccfe44b6687efcd1ba7ee97db);
+        
+
+        marker_e8f3b5da9bf14ab3a84d98ed205bfaff.bindPopup(popup_c507973849e046ccab7e9a14b72dd523)
+        ;
+
+        
+    
+    
+            var marker_892c16cf6f7f4fc18c5cf7b4b83c2b7c = L.marker(
+                [47.211788, -1.566123],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_aae2a99674d24aa88bc1cf3029d392ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_892c16cf6f7f4fc18c5cf7b4b83c2b7c.setIcon(icon_aae2a99674d24aa88bc1cf3029d392ec);
+        
+    
+        var popup_e8339333c0f948f9a4f536973d6ef4af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e920c70f737f4f0db1178994a95bdef4 = $(`<div id="html_e920c70f737f4f0db1178994a95bdef4" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Dobrée ,20 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_e8339333c0f948f9a4f536973d6ef4af.setContent(html_e920c70f737f4f0db1178994a95bdef4);
+        
+
+        marker_892c16cf6f7f4fc18c5cf7b4b83c2b7c.bindPopup(popup_e8339333c0f948f9a4f536973d6ef4af)
+        ;
+
+        
+    
+    
+            var marker_a3e4b35f7448456abc354e4d57d2db80 = L.marker(
+                [47.138661, 4.950405],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_19ef5cfd88954c3dbe0ce981cc855343 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a3e4b35f7448456abc354e4d57d2db80.setIcon(icon_19ef5cfd88954c3dbe0ce981cc855343);
+        
+    
+        var popup_5864e6eb79794f4fa6bd7b1942ef6f31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13b1e9ece14410a8e2fb4062a42f046 = $(`<div id="html_a13b1e9ece14410a8e2fb4062a42f046" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée municipal ,219 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_5864e6eb79794f4fa6bd7b1942ef6f31.setContent(html_a13b1e9ece14410a8e2fb4062a42f046);
+        
+
+        marker_a3e4b35f7448456abc354e4d57d2db80.bindPopup(popup_5864e6eb79794f4fa6bd7b1942ef6f31)
+        ;
+
+        
+    
+    
+            var marker_393349ad3a14450b940fc551df8cf080 = L.marker(
+                [48.850437, 2.344553],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_61e9fe9745384cc7aef5b40a7e16cfa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_393349ad3a14450b940fc551df8cf080.setIcon(icon_61e9fe9745384cc7aef5b40a7e16cfa3);
+        
+    
+        var popup_3b075bd1772b4ad98b8ffa0851155626 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e31082ecf1454a3785037b88f1677532 = $(`<div id="html_e31082ecf1454a3785037b88f1677532" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée du Moyen Age - thermes et hôtel de Cluny ,2 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_3b075bd1772b4ad98b8ffa0851155626.setContent(html_e31082ecf1454a3785037b88f1677532);
+        
+
+        marker_393349ad3a14450b940fc551df8cf080.bindPopup(popup_3b075bd1772b4ad98b8ffa0851155626)
+        ;
+
+        
+    
+    
+            var marker_371f10a444b343ecb745bb40244002d7 = L.marker(
+                [49.927362, 2.92536],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_aa3c9ebac95a4371a6e08c8719fd8170 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_371f10a444b343ecb745bb40244002d7.setIcon(icon_aa3c9ebac95a4371a6e08c8719fd8170);
+        
+    
+        var popup_b13c863597b64c6087a6d1507c89e7ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4d85619b8f24381b689cc8aedaca588 = $(`<div id="html_b4d85619b8f24381b689cc8aedaca588" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Danicourt ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_b13c863597b64c6087a6d1507c89e7ec.setContent(html_b4d85619b8f24381b689cc8aedaca588);
+        
+
+        marker_371f10a444b343ecb745bb40244002d7.bindPopup(popup_b13c863597b64c6087a6d1507c89e7ec)
+        ;
+
+        
+    
+    
+            var marker_a1f1555302c44291a6665b8b07b961b1 = L.marker(
+                [46.836426, 5.708802],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_b317f5fac5644c259309552e59ccbaa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a1f1555302c44291a6665b8b07b961b1.setIcon(icon_b317f5fac5644c259309552e59ccbaa4);
+        
+    
+        var popup_dc9e370583bd4fe6a7ad155329834438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fbaee40ee714134b7020411e7cfc994 = $(`<div id="html_7fbaee40ee714134b7020411e7cfc994" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée municipal ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_dc9e370583bd4fe6a7ad155329834438.setContent(html_7fbaee40ee714134b7020411e7cfc994);
+        
+
+        marker_a1f1555302c44291a6665b8b07b961b1.bindPopup(popup_dc9e370583bd4fe6a7ad155329834438)
+        ;
+
+        
+    
+    
+            var marker_e97ce922a9df44bfa0a1be16206d76c8 = L.marker(
+                [48.932234, 7.664814],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_46ddcd74455b4e1a8dca2c071abd7f0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e97ce922a9df44bfa0a1be16206d76c8.setIcon(icon_46ddcd74455b4e1a8dca2c071abd7f0d);
+        
+    
+        var popup_d863a62cb6d845848704f48b802f14b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41c2ff4f4b5e4d66a52b5a7ff92c787e = $(`<div id="html_41c2ff4f4b5e4d66a52b5a7ff92c787e" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Historique et Industriel - musée du Fer ,2 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_d863a62cb6d845848704f48b802f14b3.setContent(html_41c2ff4f4b5e4d66a52b5a7ff92c787e);
+        
+
+        marker_e97ce922a9df44bfa0a1be16206d76c8.bindPopup(popup_d863a62cb6d845848704f48b802f14b3)
+        ;
+
+        
+    
+    
+            var marker_604cf4a9bb7a43a7b93671ce8f7a9fe5 = L.marker(
+                [49.447268, 1.098932],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_6815139aaf604740a49b9acb6a9abdc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_604cf4a9bb7a43a7b93671ce8f7a9fe5.setIcon(icon_6815139aaf604740a49b9acb6a9abdc6);
+        
+    
+        var popup_8f36cb3d57a2433fb8c3d02a5b28f7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9847d8d482384d749ec8bce617e5bb0a = $(`<div id="html_9847d8d482384d749ec8bce617e5bb0a" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée des antiquités de la Seine-Maritime ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_8f36cb3d57a2433fb8c3d02a5b28f7a1.setContent(html_9847d8d482384d749ec8bce617e5bb0a);
+        
+
+        marker_604cf4a9bb7a43a7b93671ce8f7a9fe5.bindPopup(popup_8f36cb3d57a2433fb8c3d02a5b28f7a1)
+        ;
+
+        
+    
+    
+            var marker_3dc24884eaad4de5aab79607a6701558 = L.marker(
+                [49.445232, 1.081736],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_ee682e4bbc64421cae2383a646144ddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3dc24884eaad4de5aab79607a6701558.setIcon(icon_ee682e4bbc64421cae2383a646144ddc);
+        
+    
+        var popup_22ef92b97c7b4be0a30208e7ed46f0b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cf8ba581f0147b39565fb4bb264a2b1 = $(`<div id="html_1cf8ba581f0147b39565fb4bb264a2b1" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Flaubert et d'Histoire de la Médecine ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_22ef92b97c7b4be0a30208e7ed46f0b6.setContent(html_1cf8ba581f0147b39565fb4bb264a2b1);
+        
+
+        marker_3dc24884eaad4de5aab79607a6701558.bindPopup(popup_22ef92b97c7b4be0a30208e7ed46f0b6)
+        ;
+
+        
+    
+    
+            var marker_9fb629bf7c05417486b178ff0f1e3088 = L.marker(
+                [48.897879, 2.094936],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_7c6fb2798f4e40c8952c1b5ffdc7f9ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_9fb629bf7c05417486b178ff0f1e3088.setIcon(icon_7c6fb2798f4e40c8952c1b5ffdc7f9ac);
+        
+    
+        var popup_7a9a68acd2a74d76bf84b16f84459836 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2797c42254c7470a990e6f3bc55e548e = $(`<div id="html_2797c42254c7470a990e6f3bc55e548e" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée d’archéologie nationale (des origines à l’an mille) – Château de Saint-Germain-en-Laye ,94 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_7a9a68acd2a74d76bf84b16f84459836.setContent(html_2797c42254c7470a990e6f3bc55e548e);
+        
+
+        marker_9fb629bf7c05417486b178ff0f1e3088.bindPopup(popup_7a9a68acd2a74d76bf84b16f84459836)
+        ;
+
+        
+    
+    
+            var marker_b5edb4732e614b97b39de15a334feeea = L.marker(
+                [49.20653, 2.585615],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_218bd4998b3a46e38b6f5e9bef2e7727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b5edb4732e614b97b39de15a334feeea.setIcon(icon_218bd4998b3a46e38b6f5e9bef2e7727);
+        
+    
+        var popup_f71577147d7546888b4a14834432bf37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_037e4d2d7b4641779a0bf95a6c981878 = $(`<div id="html_037e4d2d7b4641779a0bf95a6c981878" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée d'Art et d'Archéologie ,398 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_f71577147d7546888b4a14834432bf37.setContent(html_037e4d2d7b4641779a0bf95a6c981878);
+        
+
+        marker_b5edb4732e614b97b39de15a334feeea.bindPopup(popup_f71577147d7546888b4a14834432bf37)
+        ;
+
+        
+    
+    
+            var marker_80206f2886564332b71d7b917f3e896d = L.marker(
+                [48.197828, 3.284505],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_b9853bb07fc7495db90ca577dde450ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_80206f2886564332b71d7b917f3e896d.setIcon(icon_b9853bb07fc7495db90ca577dde450ff);
+        
+    
+        var popup_943be0c36bdf4cbcb143c67d7642c08a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f7341b91e954c19be5af6c3aea6c79d = $(`<div id="html_8f7341b91e954c19be5af6c3aea6c79d" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée municipal ,70 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_943be0c36bdf4cbcb143c67d7642c08a.setContent(html_8f7341b91e954c19be5af6c3aea6c79d);
+        
+
+        marker_80206f2886564332b71d7b917f3e896d.bindPopup(popup_943be0c36bdf4cbcb143c67d7642c08a)
+        ;
+
+        
+    
+    
+            var marker_d7094f4c5f1941b1b4b28efe564de6c2 = L.marker(
+                [49.384539, 3.327233],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_8d5258dcbe72491b9c5c561e1850c51c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d7094f4c5f1941b1b4b28efe564de6c2.setIcon(icon_8d5258dcbe72491b9c5c561e1850c51c);
+        
+    
+        var popup_bfc6b00b42da4448acabafc9b102eef1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ad38aaef2874c44a68da86301c968c8 = $(`<div id="html_1ad38aaef2874c44a68da86301c968c8" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée municipal ,413 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_bfc6b00b42da4448acabafc9b102eef1.setContent(html_1ad38aaef2874c44a68da86301c968c8);
+        
+
+        marker_d7094f4c5f1941b1b4b28efe564de6c2.bindPopup(popup_bfc6b00b42da4448acabafc9b102eef1)
+        ;
+
+        
+    
+    
+            var marker_804b1fb191434c2d9c8a211da36ccf6e = L.marker(
+                [48.581229, 7.751984],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_e877a48a35894e549c0f1aaec4b8a1ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_804b1fb191434c2d9c8a211da36ccf6e.setIcon(icon_e877a48a35894e549c0f1aaec4b8a1ee);
+        
+    
+        var popup_c517f8ee01c64c28bbd36de26af82ea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_655fbdc21c9945dfb12e2e07dac444cb = $(`<div id="html_655fbdc21c9945dfb12e2e07dac444cb" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée archéologique ,116 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_c517f8ee01c64c28bbd36de26af82ea2.setContent(html_655fbdc21c9945dfb12e2e07dac444cb);
+        
+
+        marker_804b1fb191434c2d9c8a211da36ccf6e.bindPopup(popup_c517f8ee01c64c28bbd36de26af82ea2)
+        ;
+
+        
+    
+    
+            var marker_c18a36dc8d514323b8d150587d59c181 = L.marker(
+                [44.931125, 4.889563],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_74f3d86f104e45da8e58d157692f353c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c18a36dc8d514323b8d150587d59c181.setIcon(icon_74f3d86f104e45da8e58d157692f353c);
+        
+    
+        var popup_f76c88e6b9fc414dad96ac7b15c5e1dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c82299344cec47b49808af70a91ecc97 = $(`<div id="html_c82299344cec47b49808af70a91ecc97" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée des beaux-arts et d’archéologie ,2 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_f76c88e6b9fc414dad96ac7b15c5e1dd.setContent(html_c82299344cec47b49808af70a91ecc97);
+        
+
+        marker_c18a36dc8d514323b8d150587d59c181.bindPopup(popup_f76c88e6b9fc414dad96ac7b15c5e1dd)
+        ;
+
+        
+    
+    
+            var marker_146ef425f1ce4a83b78721cf62ff65a5 = L.marker(
+                [49.094855, 1.484927],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_aef6bc9be08d4c3687319a7ae2d44204 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_146ef425f1ce4a83b78721cf62ff65a5.setIcon(icon_aef6bc9be08d4c3687319a7ae2d44204);
+        
+    
+        var popup_40029033745743cba053a5973d14c268 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_197977f299844f3fa34276d37a6bee3b = $(`<div id="html_197977f299844f3fa34276d37a6bee3b" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Alphonse-Georges Poulain ,4 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_40029033745743cba053a5973d14c268.setContent(html_197977f299844f3fa34276d37a6bee3b);
+        
+
+        marker_146ef425f1ce4a83b78721cf62ff65a5.bindPopup(popup_40029033745743cba053a5973d14c268)
+        ;
+
+        
+    
+    
+            var marker_11339b6e5c864b4dbde36f731aced1ec = L.marker(
+                [49.253009, 3.089691],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_5a4551d8052e4fbaa8b76349011517f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_11339b6e5c864b4dbde36f731aced1ec.setIcon(icon_5a4551d8052e4fbaa8b76349011517f9);
+        
+    
+        var popup_cc372e9c2dd24db59d0ee6b0586580de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fba1f1e99064507aba448103e0663ea = $(`<div id="html_8fba1f1e99064507aba448103e0663ea" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Alexandre Dumas ,5 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_cc372e9c2dd24db59d0ee6b0586580de.setContent(html_8fba1f1e99064507aba448103e0663ea);
+        
+
+        marker_11339b6e5c864b4dbde36f731aced1ec.bindPopup(popup_cc372e9c2dd24db59d0ee6b0586580de)
+        ;
+
+        
+    
+    
+            var marker_3cc7d26fc0864983b340fb781d8a8af8 = L.marker(
+                [49.038815, 7.944344],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_8b103b0f343840fcb129f77352ee5cf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3cc7d26fc0864983b340fb781d8a8af8.setIcon(icon_8b103b0f343840fcb129f77352ee5cf3);
+        
+    
+        var popup_2a97e6a501a141fd803b9d494e120e2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19abe8d1747f4671b5d07d70796bc828 = $(`<div id="html_19abe8d1747f4671b5d07d70796bc828" style="width: 100.0%; height: 100.0%;">GALLO-ROMAIN ,musée Westercamp ,5 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_2a97e6a501a141fd803b9d494e120e2c.setContent(html_19abe8d1747f4671b5d07d70796bc828);
+        
+
+        marker_3cc7d26fc0864983b340fb781d8a8af8.bindPopup(popup_2a97e6a501a141fd803b9d494e120e2c)
+        ;
+
+        
+    
+    
+            var marker_57b965c45dc04459b12c82d030e79a52 = L.marker(
+                [43.298047, 3.476702],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_c6de87ab22044eb18d43cb9b03bff4a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_57b965c45dc04459b12c82d030e79a52.setIcon(icon_c6de87ab22044eb18d43cb9b03bff4a8);
+        
+    
+        var popup_f0ca63a3b81441ed8a5293a082c71e71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1309dab6446646a0b036e394e50e6be3 = $(`<div id="html_1309dab6446646a0b036e394e50e6be3" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée de l'Ephèbe ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_f0ca63a3b81441ed8a5293a082c71e71.setContent(html_1309dab6446646a0b036e394e50e6be3);
+        
+
+        marker_57b965c45dc04459b12c82d030e79a52.bindPopup(popup_f0ca63a3b81441ed8a5293a082c71e71)
+        ;
+
+        
+    
+    
+            var marker_331bf7a917804fbb8767359a46aa6778 = L.marker(
+                [49.890413, 2.295968],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_4b6fd14024964826b2ade6ccf1400d90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_331bf7a917804fbb8767359a46aa6778.setIcon(icon_4b6fd14024964826b2ade6ccf1400d90);
+        
+    
+        var popup_38ba411d8f8e4525b684ccedc2ce7a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9420f34ceb84e38ac9d37284ecd2330 = $(`<div id="html_a9420f34ceb84e38ac9d37284ecd2330" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée de Picardie ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_38ba411d8f8e4525b684ccedc2ce7a86.setContent(html_a9420f34ceb84e38ac9d37284ecd2330);
+        
+
+        marker_331bf7a917804fbb8767359a46aa6778.bindPopup(popup_38ba411d8f8e4525b684ccedc2ce7a86)
+        ;
+
+        
+    
+    
+            var marker_c5775a3ae83b4b2d9cb590ba8103ed39 = L.marker(
+                [47.469659, -0.555485],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_b5f3c98ab3fe4112a32a3864f8b8f280 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c5775a3ae83b4b2d9cb590ba8103ed39.setIcon(icon_b5f3c98ab3fe4112a32a3864f8b8f280);
+        
+    
+        var popup_85938a11cba2475f9b8bb53bf6bfb44f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da32aee8123b42138a9e6d60e697e1d0 = $(`<div id="html_da32aee8123b42138a9e6d60e697e1d0" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée des beaux-arts et galerie David-d'Angers ,8 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_85938a11cba2475f9b8bb53bf6bfb44f.setContent(html_da32aee8123b42138a9e6d60e697e1d0);
+        
+
+        marker_c5775a3ae83b4b2d9cb590ba8103ed39.bindPopup(popup_85938a11cba2475f9b8bb53bf6bfb44f)
+        ;
+
+        
+    
+    
+            var marker_e5c22aac40d4476da913292a4aeb5683 = L.marker(
+                [47.471767, -0.551841],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_e42da0f559354b43a16e194135c67396 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e5c22aac40d4476da913292a4aeb5683.setIcon(icon_e42da0f559354b43a16e194135c67396);
+        
+    
+        var popup_e4a8b24aef4c4779851b226bb55cbd73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70ca6d8256fb4135bf2d9013ca7d5a6a = $(`<div id="html_70ca6d8256fb4135bf2d9013ca7d5a6a" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée Pincé ,7 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_e4a8b24aef4c4779851b226bb55cbd73.setContent(html_70ca6d8256fb4135bf2d9013ca7d5a6a);
+        
+
+        marker_e5c22aac40d4476da913292a4aeb5683.bindPopup(popup_e4a8b24aef4c4779851b226bb55cbd73)
+        ;
+
+        
+    
+    
+            var marker_c7aedb4e45264c44b112e8d3ca5d26ff = L.marker(
+                [50.291759, 2.772987],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_df826a1ec4a24795bb7a8192b1ae3d0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c7aedb4e45264c44b112e8d3ca5d26ff.setIcon(icon_df826a1ec4a24795bb7a8192b1ae3d0e);
+        
+    
+        var popup_dbbfe12a6a4a4a8ba4665675a5a042fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9e29e666bd04be1b56fa7d5b9d5cecb = $(`<div id="html_d9e29e666bd04be1b56fa7d5b9d5cecb" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée des Beaux-Arts ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_dbbfe12a6a4a4a8ba4665675a5a042fe.setContent(html_d9e29e666bd04be1b56fa7d5b9d5cecb);
+        
+
+        marker_c7aedb4e45264c44b112e8d3ca5d26ff.bindPopup(popup_dbbfe12a6a4a4a8ba4665675a5a042fe)
+        ;
+
+        
+    
+    
+            var marker_33378423e4c043dda37e3e4a72b47a58 = L.marker(
+                [47.240055, 6.022938],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_d5c1e1bc02b24f509a9cc02394db34e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_33378423e4c043dda37e3e4a72b47a58.setIcon(icon_d5c1e1bc02b24f509a9cc02394db34e6);
+        
+    
+        var popup_026d78de708d4e1bb3664512d896c00b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_244d84f48d3040518174b0b11dbf4654 = $(`<div id="html_244d84f48d3040518174b0b11dbf4654" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée des Beaux-Arts et d'Archéologie ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_026d78de708d4e1bb3664512d896c00b.setContent(html_244d84f48d3040518174b0b11dbf4654);
+        
+
+        marker_33378423e4c043dda37e3e4a72b47a58.bindPopup(popup_026d78de708d4e1bb3664512d896c00b)
+        ;
+
+        
+    
+    
+            var marker_4f3680247c2d458b93240ccfd78ab99a = L.marker(
+                [44.835543, -0.575205],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_58d854a8245745a185cc2a67e0ee6cee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4f3680247c2d458b93240ccfd78ab99a.setIcon(icon_58d854a8245745a185cc2a67e0ee6cee);
+        
+    
+        var popup_f2aa7ccdce6a4fe8996536146302373b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a966938a444f4fa4997a020bb7479acc = $(`<div id="html_a966938a444f4fa4997a020bb7479acc" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'Aquitaine ,7 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_f2aa7ccdce6a4fe8996536146302373b.setContent(html_a966938a444f4fa4997a020bb7479acc);
+        
+
+        marker_4f3680247c2d458b93240ccfd78ab99a.bindPopup(popup_f2aa7ccdce6a4fe8996536146302373b)
+        ;
+
+        
+    
+    
+            var marker_c02db05fad034b8c9869454d00a91248 = L.marker(
+                [44.838956, -0.579686],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_52934897d2d342a1888e1dcd5c9e3a27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c02db05fad034b8c9869454d00a91248.setIcon(icon_52934897d2d342a1888e1dcd5c9e3a27);
+        
+    
+        var popup_bee10b1c15ea4c828d46dc57d5b2fb4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe7bfab47bf04a8a869c348f74f22021 = $(`<div id="html_fe7bfab47bf04a8a869c348f74f22021" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée des arts décoratifs et du design ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_bee10b1c15ea4c828d46dc57d5b2fb4a.setContent(html_fe7bfab47bf04a8a869c348f74f22021);
+        
+
+        marker_c02db05fad034b8c9869454d00a91248.bindPopup(popup_bee10b1c15ea4c828d46dc57d5b2fb4a)
+        ;
+
+        
+    
+    
+            var marker_c5d660246ea94a9c99d56bcde9e09ecd = L.marker(
+                [43.551515, 7.010034],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_7ef679f47a084f18a3ed09b59bb5a96e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c5d660246ea94a9c99d56bcde9e09ecd.setIcon(icon_7ef679f47a084f18a3ed09b59bb5a96e);
+        
+    
+        var popup_7bd47a4b2f5c46efa7ae47f321bcfaa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f5d488961f54143820dabc0e28235a2 = $(`<div id="html_7f5d488961f54143820dabc0e28235a2" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée de La Castre ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_7bd47a4b2f5c46efa7ae47f321bcfaa8.setContent(html_7f5d488961f54143820dabc0e28235a2);
+        
+
+        marker_c5d660246ea94a9c99d56bcde9e09ecd.bindPopup(popup_7bd47a4b2f5c46efa7ae47f321bcfaa8)
+        ;
+
+        
+    
+    
+            var marker_d87670dd2dcd4647b64fec04d18cede8 = L.marker(
+                [46.78105, 4.853082],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_d5343f0ee63742ec8e773a2267f2e6ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d87670dd2dcd4647b64fec04d18cede8.setIcon(icon_d5343f0ee63742ec8e773a2267f2e6ec);
+        
+    
+        var popup_1ed54e81754e478490135310e9367a0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_510d357d2c584520bfed0bf64d2a314c = $(`<div id="html_510d357d2c584520bfed0bf64d2a314c" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée Vivant Denon ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_1ed54e81754e478490135310e9367a0a.setContent(html_510d357d2c584520bfed0bf64d2a314c);
+        
+
+        marker_d87670dd2dcd4647b64fec04d18cede8.bindPopup(popup_1ed54e81754e478490135310e9367a0a)
+        ;
+
+        
+    
+    
+            var marker_d84798468f6e4eb294ce50d555cf54c3 = L.marker(
+                [49.1938524, 2.485299],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_740e09a7e6944623b1e9f4f4ef4a538e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d84798468f6e4eb294ce50d555cf54c3.setIcon(icon_740e09a7e6944623b1e9f4f4ef4a538e);
+        
+    
+        var popup_091f0e97ec144fc48c833317b0f280d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bbbcdd3a5a54d85beff1efcd2ec4407 = $(`<div id="html_1bbbcdd3a5a54d85beff1efcd2ec4407" style="width: 100.0%; height: 100.0%;">ROMAIN ,Musée Condé ,25 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_091f0e97ec144fc48c833317b0f280d3.setContent(html_1bbbcdd3a5a54d85beff1efcd2ec4407);
+        
+
+        marker_d84798468f6e4eb294ce50d555cf54c3.bindPopup(popup_091f0e97ec144fc48c833317b0f280d3)
+        ;
+
+        
+    
+    
+            var marker_3502659e16d740f7a5878aa8a4452814 = L.marker(
+                [46.516156, 0.704913],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_2bd93697779049c1a3d5764e82590b85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3502659e16d740f7a5878aa8a4452814.setIcon(icon_2bd93697779049c1a3d5764e82590b85);
+        
+    
+        var popup_6d4f09002d3741949e50d468d4057182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f672fd2cd5b4b2a88550bc4e40fda06 = $(`<div id="html_8f672fd2cd5b4b2a88550bc4e40fda06" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée archéologique et d'ethnographie locale ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_6d4f09002d3741949e50d468d4057182.setContent(html_8f672fd2cd5b4b2a88550bc4e40fda06);
+        
+
+        marker_3502659e16d740f7a5878aa8a4452814.bindPopup(popup_6d4f09002d3741949e50d468d4057182)
+        ;
+
+        
+    
+    
+            var marker_f5157856403e4018a5375455bcc218c9 = L.marker(
+                [49.417414, 2.821526],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_fa120beaacbe4aaf99d016f26494930d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f5157856403e4018a5375455bcc218c9.setIcon(icon_fa120beaacbe4aaf99d016f26494930d);
+        
+    
+        var popup_9229f07b12214d6e98c55b941d4ca6f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da9f6d97db964dbe91b8edbadf701210 = $(`<div id="html_da9f6d97db964dbe91b8edbadf701210" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée Antoine Vivenel ,241 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_9229f07b12214d6e98c55b941d4ca6f6.setContent(html_da9f6d97db964dbe91b8edbadf701210);
+        
+
+        marker_f5157856403e4018a5375455bcc218c9.bindPopup(popup_9229f07b12214d6e98c55b941d4ca6f6)
+        ;
+
+        
+    
+    
+            var marker_f3064c56f3b44f52948e4b9e605162e5 = L.marker(
+                [45.194026, 5.732094],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_627ebbdeb5f24d72a8db520a2f38243b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f3064c56f3b44f52948e4b9e605162e5.setIcon(icon_627ebbdeb5f24d72a8db520a2f38243b);
+        
+    
+        var popup_3ca97c100aea44b68a5c09a366c8848f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac83253882714e18b54bac189c148bde = $(`<div id="html_ac83253882714e18b54bac189c148bde" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée de Grenoble ,17 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_3ca97c100aea44b68a5c09a366c8848f.setContent(html_ac83253882714e18b54bac189c148bde);
+        
+
+        marker_f3064c56f3b44f52948e4b9e605162e5.bindPopup(popup_3ca97c100aea44b68a5c09a366c8848f)
+        ;
+
+        
+    
+    
+            var marker_61a2d646cdbb48258a4af9d848704c77 = L.marker(
+                [47.865268, 5.333286],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_84eac9b0b2e4489c94a451dbe7462f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_61a2d646cdbb48258a4af9d848704c77.setIcon(icon_84eac9b0b2e4489c94a451dbe7462f8a);
+        
+    
+        var popup_49ee49489aa04a6d8f742fc74017c098 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dedeb9a68b6c4affa80318b524fed47f = $(`<div id="html_dedeb9a68b6c4affa80318b524fed47f" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'Art et d'Histoire ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_49ee49489aa04a6d8f742fc74017c098.setContent(html_dedeb9a68b6c4affa80318b524fed47f);
+        
+
+        marker_61a2d646cdbb48258a4af9d848704c77.bindPopup(popup_49ee49489aa04a6d8f742fc74017c098)
+        ;
+
+        
+    
+    
+            var marker_771c49133f5d4de49588c9d87a8cd353 = L.marker(
+                [49.563206, 3.626781],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_6dcd1635492e4fb0af470007e0a7f6dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_771c49133f5d4de49588c9d87a8cd353.setIcon(icon_6dcd1635492e4fb0af470007e0a7f6dc);
+        
+    
+        var popup_ff375986a66d4b02bebcb27ce786fd29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72728d154a12448a8ec67594f8a35522 = $(`<div id="html_72728d154a12448a8ec67594f8a35522" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'art et d'archéologie du Pays de Laon ,4 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_ff375986a66d4b02bebcb27ce786fd29.setContent(html_72728d154a12448a8ec67594f8a35522);
+        
+
+        marker_771c49133f5d4de49588c9d87a8cd353.bindPopup(popup_ff375986a66d4b02bebcb27ce786fd29)
+        ;
+
+        
+    
+    
+            var marker_a5b6aa27e5974afc9aed628f7cd712da = L.marker(
+                [50.621132, 3.068387],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_c71748586f754317b073f2e90f36a784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a5b6aa27e5974afc9aed628f7cd712da.setIcon(icon_c71748586f754317b073f2e90f36a784);
+        
+    
+        var popup_5e5d54002ce346c89138cb806f0e7725 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8d44a79e6864f02b4df4569adb4811f = $(`<div id="html_e8d44a79e6864f02b4df4569adb4811f" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée des Beaux-Arts ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_5e5d54002ce346c89138cb806f0e7725.setContent(html_e8d44a79e6864f02b4df4569adb4811f);
+        
+
+        marker_a5b6aa27e5974afc9aed628f7cd712da.bindPopup(popup_5e5d54002ce346c89138cb806f0e7725)
+        ;
+
+        
+    
+    
+            var marker_b6b5836925b545a68c315531baff4f1d = L.marker(
+                [45.760529, 4.82004],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_dce963f19b164533bf933701eb21a049 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b6b5836925b545a68c315531baff4f1d.setIcon(icon_dce963f19b164533bf933701eb21a049);
+        
+    
+        var popup_d15379098878411ba92fc534d8aba8a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_276c76adf5934a088dd05e6c78680938 = $(`<div id="html_276c76adf5934a088dd05e6c78680938" style="width: 100.0%; height: 100.0%;">ROMAIN ,Lugdunum-musée et théâtres romains ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_d15379098878411ba92fc534d8aba8a7.setContent(html_276c76adf5934a088dd05e6c78680938);
+        
+
+        marker_b6b5836925b545a68c315531baff4f1d.bindPopup(popup_d15379098878411ba92fc534d8aba8a7)
+        ;
+
+        
+    
+    
+            var marker_6f00d6ca91654c3ebfd51d5162ff9521 = L.marker(
+                [43.300172, 5.367602],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_6d44f22f75504a30a20c9364aeaba8ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6f00d6ca91654c3ebfd51d5162ff9521.setIcon(icon_6d44f22f75504a30a20c9364aeaba8ac);
+        
+    
+        var popup_a1983eec4f6c4c4bb404f14d0cca80af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a952315844f7425d9d80be386a9ab5bd = $(`<div id="html_a952315844f7425d9d80be386a9ab5bd" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'Archéologie Méditerranéenne ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_a1983eec4f6c4c4bb404f14d0cca80af.setContent(html_a952315844f7425d9d80be386a9ab5bd);
+        
+
+        marker_6f00d6ca91654c3ebfd51d5162ff9521.bindPopup(popup_a1983eec4f6c4c4bb404f14d0cca80af)
+        ;
+
+        
+    
+    
+            var marker_988a9337ee654ffd8267fe6129bb26c9 = L.marker(
+                [43.298168, 5.374162],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_38493d3d2ebd4c82970d56374f8b36fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_988a9337ee654ffd8267fe6129bb26c9.setIcon(icon_38493d3d2ebd4c82970d56374f8b36fb);
+        
+    
+        var popup_dcf77cafcad44015b7e71ed858fa5f33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69450764a75c4ec5a126128fd2928baf = $(`<div id="html_69450764a75c4ec5a126128fd2928baf" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'Histoire de Marseille ,2 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_dcf77cafcad44015b7e71ed858fa5f33.setContent(html_69450764a75c4ec5a126128fd2928baf);
+        
+
+        marker_988a9337ee654ffd8267fe6129bb26c9.bindPopup(popup_dcf77cafcad44015b7e71ed858fa5f33)
+        ;
+
+        
+    
+    
+            var marker_a3b44932fb3746c39cde7a8611cb6384 = L.marker(
+                [48.806412, 2.234894],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_e73d501ab3a949ca831669bd0f656d52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a3b44932fb3746c39cde7a8611cb6384.setIcon(icon_e73d501ab3a949ca831669bd0f656d52);
+        
+    
+        var popup_462580e5643f4a15aacc1155d86117f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_072cafc4e5104177b252a1a47f07a11e = $(`<div id="html_072cafc4e5104177b252a1a47f07a11e" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'Art et d'Histoire ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_462580e5643f4a15aacc1155d86117f8.setContent(html_072cafc4e5104177b252a1a47f07a11e);
+        
+
+        marker_a3b44932fb3746c39cde7a8611cb6384.bindPopup(popup_462580e5643f4a15aacc1155d86117f8)
+        ;
+
+        
+    
+    
+            var marker_a1eec5c749b14096859192714dc65c09 = L.marker(
+                [47.211788, -1.566123],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_92b6f061d8d94ed7ae77edc6d6230b7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a1eec5c749b14096859192714dc65c09.setIcon(icon_92b6f061d8d94ed7ae77edc6d6230b7a);
+        
+    
+        var popup_cbf90293ae7444f482fcfff9f4c5a21a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c43d587ca94f43f297a9f0afd3838ad6 = $(`<div id="html_c43d587ca94f43f297a9f0afd3838ad6" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée Dobrée ,7 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_cbf90293ae7444f482fcfff9f4c5a21a.setContent(html_c43d587ca94f43f297a9f0afd3838ad6);
+        
+
+        marker_a1eec5c749b14096859192714dc65c09.bindPopup(popup_cbf90293ae7444f482fcfff9f4c5a21a)
+        ;
+
+        
+    
+    
+            var marker_802d335bf1ba4f18a5c563fcc2e0f9dc = L.marker(
+                [48.8589, 2.3469],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_0621b24f82fc4b228a0a19543efa46f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_802d335bf1ba4f18a5c563fcc2e0f9dc.setIcon(icon_0621b24f82fc4b228a0a19543efa46f0);
+        
+    
+        var popup_18e64b93c95944d9a59107955badd512 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb07d6af7cb34191b40825e6a5c440a9 = $(`<div id="html_cb07d6af7cb34191b40825e6a5c440a9" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée du Louvre ,5 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_18e64b93c95944d9a59107955badd512.setContent(html_cb07d6af7cb34191b40825e6a5c440a9);
+        
+
+        marker_802d335bf1ba4f18a5c563fcc2e0f9dc.bindPopup(popup_18e64b93c95944d9a59107955badd512)
+        ;
+
+        
+    
+    
+            var marker_d85f98b691c5470cb7457c59fcd0d8f1 = L.marker(
+                [45.0431, 5.055376],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_1565ac584f49465a9dc66fd58d0424fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d85f98b691c5470cb7457c59fcd0d8f1.setIcon(icon_1565ac584f49465a9dc66fd58d0424fb);
+        
+    
+        var popup_cebfadbe3b9c4a8eb93d14d731d59da6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8490dbc80d3a43f7ba215d30289eced8 = $(`<div id="html_8490dbc80d3a43f7ba215d30289eced8" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée International de la Chaussure ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_cebfadbe3b9c4a8eb93d14d731d59da6.setContent(html_8490dbc80d3a43f7ba215d30289eced8);
+        
+
+        marker_d85f98b691c5470cb7457c59fcd0d8f1.bindPopup(popup_cebfadbe3b9c4a8eb93d14d731d59da6)
+        ;
+
+        
+    
+    
+            var marker_2846b6bb07c94147ad356021e316ff39 = L.marker(
+                [49.447268, 1.098932],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_24af76caaf6442929d4bbf5706b346db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_2846b6bb07c94147ad356021e316ff39.setIcon(icon_24af76caaf6442929d4bbf5706b346db);
+        
+    
+        var popup_5a4a9e2aa3224aadb72b551a06a8a6c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_489d96e19b634fcda52be208a86ac53a = $(`<div id="html_489d96e19b634fcda52be208a86ac53a" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée des antiquités de la Seine-Maritime ,128 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_5a4a9e2aa3224aadb72b551a06a8a6c2.setContent(html_489d96e19b634fcda52be208a86ac53a);
+        
+
+        marker_2846b6bb07c94147ad356021e316ff39.bindPopup(popup_5a4a9e2aa3224aadb72b551a06a8a6c2)
+        ;
+
+        
+    
+    
+            var marker_a9cd73bf5df1455e954395683d7fff5e = L.marker(
+                [49.445232, 1.081736],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_2c108503b17447ef967be4b0a78fb6e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a9cd73bf5df1455e954395683d7fff5e.setIcon(icon_2c108503b17447ef967be4b0a78fb6e4);
+        
+    
+        var popup_1068a3fc04da4765bdd5ddd9b59b894e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c882943d8ecf4ac6a5af412e32af22e0 = $(`<div id="html_c882943d8ecf4ac6a5af412e32af22e0" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée Flaubert et d'Histoire de la Médecine ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_1068a3fc04da4765bdd5ddd9b59b894e.setContent(html_c882943d8ecf4ac6a5af412e32af22e0);
+        
+
+        marker_a9cd73bf5df1455e954395683d7fff5e.bindPopup(popup_1068a3fc04da4765bdd5ddd9b59b894e)
+        ;
+
+        
+    
+    
+            var marker_c9685ec5980c4cd3951c9ebd0ff03119 = L.marker(
+                [48.897879, 2.094936],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_750590cdcf544b41901800097dcc3449 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c9685ec5980c4cd3951c9ebd0ff03119.setIcon(icon_750590cdcf544b41901800097dcc3449);
+        
+    
+        var popup_4960a3111abb474abe2a3dfce6d26e14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a6fc56c093f4c758c4144a74b048771 = $(`<div id="html_8a6fc56c093f4c758c4144a74b048771" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d’archéologie nationale (des origines à l’an mille) – Château de Saint-Germain-en-Laye ,9 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_4960a3111abb474abe2a3dfce6d26e14.setContent(html_8a6fc56c093f4c758c4144a74b048771);
+        
+
+        marker_c9685ec5980c4cd3951c9ebd0ff03119.bindPopup(popup_4960a3111abb474abe2a3dfce6d26e14)
+        ;
+
+        
+    
+    
+            var marker_4e27d0a40ba8471f825ba5d028ec921b = L.marker(
+                [46.937242, 5.876684],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_b5d5f056d8da41ef8d3b0c0360c87d72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4e27d0a40ba8471f825ba5d028ec921b.setIcon(icon_b5d5f056d8da41ef8d3b0c0360c87d72);
+        
+    
+        var popup_e90be5103436404fbbbbb75c28d6a061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92423c0a70f8449c9e0387f8966a385d = $(`<div id="html_92423c0a70f8449c9e0387f8966a385d" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée du sel – Max Claudet ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_e90be5103436404fbbbbb75c28d6a061.setContent(html_92423c0a70f8449c9e0387f8966a385d);
+        
+
+        marker_4e27d0a40ba8471f825ba5d028ec921b.bindPopup(popup_e90be5103436404fbbbbb75c28d6a061)
+        ;
+
+        
+    
+    
+            var marker_91448346488e4e058ce215aa52337102 = L.marker(
+                [49.20653, 2.585615],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_c41c8f75d8384859bf610f5b0339da24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_91448346488e4e058ce215aa52337102.setIcon(icon_c41c8f75d8384859bf610f5b0339da24);
+        
+    
+        var popup_2fa4abea12974bafb0299a4bb5534343 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b496761c8144f9a04e318cf748cab3 = $(`<div id="html_61b496761c8144f9a04e318cf748cab3" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée d'Art et d'Archéologie ,4 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_2fa4abea12974bafb0299a4bb5534343.setContent(html_61b496761c8144f9a04e318cf748cab3);
+        
+
+        marker_91448346488e4e058ce215aa52337102.bindPopup(popup_2fa4abea12974bafb0299a4bb5534343)
+        ;
+
+        
+    
+    
+            var marker_4624094964674f588032e4e8db7e6923 = L.marker(
+                [48.197828, 3.284505],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_6598ac904a6c49829edddcb9fb2f0951 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4624094964674f588032e4e8db7e6923.setIcon(icon_6598ac904a6c49829edddcb9fb2f0951);
+        
+    
+        var popup_8a33dc61ffe144e09793f4a967f5b649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcda93ddb93041368e1ccdff76edcb43 = $(`<div id="html_dcda93ddb93041368e1ccdff76edcb43" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée municipal ,131 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_8a33dc61ffe144e09793f4a967f5b649.setContent(html_dcda93ddb93041368e1ccdff76edcb43);
+        
+
+        marker_4624094964674f588032e4e8db7e6923.bindPopup(popup_8a33dc61ffe144e09793f4a967f5b649)
+        ;
+
+        
+    
+    
+            var marker_cec3e2ccaf8a4a66a0aece8262e346ed = L.marker(
+                [48.581229, 7.751984],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_c2cd454305584c5e9b55c472e465f431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cec3e2ccaf8a4a66a0aece8262e346ed.setIcon(icon_c2cd454305584c5e9b55c472e465f431);
+        
+    
+        var popup_489c3b66256045e29481b7652a02627d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f1894ab289243e4a087b47d52604ef7 = $(`<div id="html_6f1894ab289243e4a087b47d52604ef7" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée archéologique ,52 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_489c3b66256045e29481b7652a02627d.setContent(html_6f1894ab289243e4a087b47d52604ef7);
+        
+
+        marker_cec3e2ccaf8a4a66a0aece8262e346ed.bindPopup(popup_489c3b66256045e29481b7652a02627d)
+        ;
+
+        
+    
+    
+            var marker_14c389d0dad3453cb885b7df3bea1e08 = L.marker(
+                [43.125971, 5.927245],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_766dbc4c9b744bb7a8e388dc8385107a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_14c389d0dad3453cb885b7df3bea1e08.setIcon(icon_766dbc4c9b744bb7a8e388dc8385107a);
+        
+    
+        var popup_7091d52eb111481ea66b8371cd72a16a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_030e6da937ea4c4fbd1a60229c865a43 = $(`<div id="html_030e6da937ea4c4fbd1a60229c865a43" style="width: 100.0%; height: 100.0%;">ROMAIN ,Musée d’Art de Toulon – M.A.T. ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_7091d52eb111481ea66b8371cd72a16a.setContent(html_030e6da937ea4c4fbd1a60229c865a43);
+        
+
+        marker_14c389d0dad3453cb885b7df3bea1e08.bindPopup(popup_7091d52eb111481ea66b8371cd72a16a)
+        ;
+
+        
+    
+    
+            var marker_91c85d33f6d64c3386434ed853afc5e0 = L.marker(
+                [43.608897, 1.441776],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_d862b8dd8d6647b2abdc39bbea7d28fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_91c85d33f6d64c3386434ed853afc5e0.setIcon(icon_d862b8dd8d6647b2abdc39bbea7d28fc);
+        
+    
+        var popup_27d7a07cd69f449998554f7263b6f86a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1091fdf129441e5a40575da1cd8b49a = $(`<div id="html_a1091fdf129441e5a40575da1cd8b49a" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée Saint-Raymond ,255 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_27d7a07cd69f449998554f7263b6f86a.setContent(html_a1091fdf129441e5a40575da1cd8b49a);
+        
+
+        marker_91c85d33f6d64c3386434ed853afc5e0.bindPopup(popup_27d7a07cd69f449998554f7263b6f86a)
+        ;
+
+        
+    
+    
+            var marker_8f25ad4847844a02885ee8a346a3889e = L.marker(
+                [49.161059, 5.382439],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_7444b0d99ec64d939d03f03a8f831a29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8f25ad4847844a02885ee8a346a3889e.setIcon(icon_7444b0d99ec64d939d03f03a8f831a29);
+        
+    
+        var popup_771c97d4677f4e96a4f65c3b45f08064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6ee61f09e164ddb98393e47b399d52e = $(`<div id="html_b6ee61f09e164ddb98393e47b399d52e" style="width: 100.0%; height: 100.0%;">ROMAIN ,musée de La Princerie ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_771c97d4677f4e96a4f65c3b45f08064.setContent(html_b6ee61f09e164ddb98393e47b399d52e);
+        
+
+        marker_8f25ad4847844a02885ee8a346a3889e.bindPopup(popup_771c97d4677f4e96a4f65c3b45f08064)
+        ;
+
+        
+    
+    
+            var marker_3ab94b4306ed4443b3fe512f9db41ce3 = L.marker(
+                [48.804537, 2.134053],
+                {}
+            ).addTo(map_faedef3c84614774830c5780261b118e);
+        
+    
+            var icon_b9eb87e0bded453fa1d3a91725d30191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3ab94b4306ed4443b3fe512f9db41ce3.setIcon(icon_b9eb87e0bded453fa1d3a91725d30191);
+        
+    
+        var popup_fc06978712e8452db6c0ef8a582e90c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94a8e58d5f41423d8eba78aba718c389 = $(`<div id="html_94a8e58d5f41423d8eba78aba718c389" style="width: 100.0%; height: 100.0%;">ROMAIN ,Domaine National de Versailles - Le château ,8 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_fc06978712e8452db6c0ef8a582e90c2.setContent(html_94a8e58d5f41423d8eba78aba718c389);
+        
+
+        marker_3ab94b4306ed4443b3fe512f9db41ce3.bindPopup(popup_fc06978712e8452db6c0ef8a582e90c2)
+        ;
+
+        
+    
+    
+            map_faedef3c84614774830c5780261b118e.fitBounds(
+                [[43.125971, -1.566123], [50.621132, 7.944344]],
+                {}
+            );
+        
+</script>

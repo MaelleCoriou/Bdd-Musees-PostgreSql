@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4cdf97d70dad44698a50241e276b9820 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4cdf97d70dad44698a50241e276b9820" ></div>
+        
+</body>
+<script>    
+    
+            var map_4cdf97d70dad44698a50241e276b9820 = L.map(
+                "map_4cdf97d70dad44698a50241e276b9820",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Lieu d\u0027expostion des oeuvres du 21e si\u00e8cle",
+                }
+            );
+            L.control.scale().addTo(map_4cdf97d70dad44698a50241e276b9820);
+
+            
+
+        
+    
+            var tile_layer_e9e35c630f2b4655bb7e6ce4d5210308 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var marker_c9192de798b9479eb33ccea6cbd69ebb = L.marker(
+                [46.945723, 4.299216],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_cdb49ec106a542a99494841c0a5f654b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c9192de798b9479eb33ccea6cbd69ebb.setIcon(icon_cdb49ec106a542a99494841c0a5f654b);
+        
+    
+        var popup_b7f29643c87243dea3e5e527b8fd76e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e76693c1dbfe44ad876671e96b0f5940 = $(`<div id="html_e76693c1dbfe44ad876671e96b0f5940" style="width: 100.0%; height: 100.0%;">musée Rolin ,12 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_b7f29643c87243dea3e5e527b8fd76e5.setContent(html_e76693c1dbfe44ad876671e96b0f5940);
+        
+
+        marker_c9192de798b9479eb33ccea6cbd69ebb.bindPopup(popup_b7f29643c87243dea3e5e527b8fd76e5)
+        ;
+
+        
+    
+    
+            var marker_f508b0c9f45b442294592199388d8da5 = L.marker(
+                [47.240055, 6.022938],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_0555f32c659b447b840f73ed29df2e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f508b0c9f45b442294592199388d8da5.setIcon(icon_0555f32c659b447b840f73ed29df2e1f);
+        
+    
+        var popup_600aac07efcc4cbbb50dc828488cbbfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2420fa14be284bc88a71e757bb17466f = $(`<div id="html_2420fa14be284bc88a71e757bb17466f" style="width: 100.0%; height: 100.0%;">musée des Beaux-Arts et d'Archéologie ,292 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_600aac07efcc4cbbb50dc828488cbbfe.setContent(html_2420fa14be284bc88a71e757bb17466f);
+        
+
+        marker_f508b0c9f45b442294592199388d8da5.bindPopup(popup_600aac07efcc4cbbb50dc828488cbbfe)
+        ;
+
+        
+    
+    
+            var marker_9559f7183ba84710a28be8bf92b83f58 = L.marker(
+                [42.485799, 2.74849],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_efa54a066fdb4743aa6bc4d5ff32e1b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_9559f7183ba84710a28be8bf92b83f58.setIcon(icon_efa54a066fdb4743aa6bc4d5ff32e1b4);
+        
+    
+        var popup_cdc8eeff85794d1b8f201ef4168bdb0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fdced5c491a4970b7ff2fbee160dc3e = $(`<div id="html_6fdced5c491a4970b7ff2fbee160dc3e" style="width: 100.0%; height: 100.0%;">musée d'Art Moderne ,12 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_cdc8eeff85794d1b8f201ef4168bdb0a.setContent(html_6fdced5c491a4970b7ff2fbee160dc3e);
+        
+
+        marker_9559f7183ba84710a28be8bf92b83f58.bindPopup(popup_cdc8eeff85794d1b8f201ef4168bdb0a)
+        ;
+
+        
+    
+    
+            var marker_3b3a48d8487444edbbf75e2da03de697 = L.marker(
+                [49.776034, 4.720613],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_3be21c7480dd44c9b4a68ea235b9cb4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3b3a48d8487444edbbf75e2da03de697.setIcon(icon_3be21c7480dd44c9b4a68ea235b9cb4a);
+        
+    
+        var popup_ba6c0f7725cd4820915c57135c9533ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaa7ca3da6cd44e29bd6b8bbe952b69f = $(`<div id="html_eaa7ca3da6cd44e29bd6b8bbe952b69f" style="width: 100.0%; height: 100.0%;">musée Arthur Rimbaud ,14 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_ba6c0f7725cd4820915c57135c9533ce.setContent(html_eaa7ca3da6cd44e29bd6b8bbe952b69f);
+        
+
+        marker_3b3a48d8487444edbbf75e2da03de697.bindPopup(popup_ba6c0f7725cd4820915c57135c9533ce)
+        ;
+
+        
+    
+    
+            var marker_42ad204863414cc8b753afba0c53fdeb = L.marker(
+                [49.923908, 1.071756],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_36f9a2342b4042db9283d0541cb24da1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_42ad204863414cc8b753afba0c53fdeb.setIcon(icon_36f9a2342b4042db9283d0541cb24da1);
+        
+    
+        var popup_e89df83fcbae42a1b0612a4a5b46bd0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60857cb10c848ed95a70d9504b21428 = $(`<div id="html_b60857cb10c848ed95a70d9504b21428" style="width: 100.0%; height: 100.0%;">Château-musée ,18 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_e89df83fcbae42a1b0612a4a5b46bd0e.setContent(html_b60857cb10c848ed95a70d9504b21428);
+        
+
+        marker_42ad204863414cc8b753afba0c53fdeb.bindPopup(popup_e89df83fcbae42a1b0612a4a5b46bd0e)
+        ;
+
+        
+    
+    
+            var marker_216d867ec5714e67b708c30f57d73f6e = L.marker(
+                [45.194026, 5.732094],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_abc4be49cc144338af179729087c2294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_216d867ec5714e67b708c30f57d73f6e.setIcon(icon_abc4be49cc144338af179729087c2294);
+        
+    
+        var popup_14c244b26fd24dab8f7aba5cf04b507f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddd19c4af78a4cf3a06d72f5c10d45ed = $(`<div id="html_ddd19c4af78a4cf3a06d72f5c10d45ed" style="width: 100.0%; height: 100.0%;">musée de Grenoble ,56 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_14c244b26fd24dab8f7aba5cf04b507f.setContent(html_ddd19c4af78a4cf3a06d72f5c10d45ed);
+        
+
+        marker_216d867ec5714e67b708c30f57d73f6e.bindPopup(popup_14c244b26fd24dab8f7aba5cf04b507f)
+        ;
+
+        
+    
+    
+            var marker_af8d0017b17c43d7b505077e35682cda = L.marker(
+                [46.521, 6.022578],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_9e09340709ca4753882d674813f18c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_af8d0017b17c43d7b505077e35682cda.setIcon(icon_9e09340709ca4753882d674813f18c2b);
+        
+    
+        var popup_a1728bc625c5432ab1c54646675bedfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e7601208d22418dbaa5d1dd5641eed5 = $(`<div id="html_8e7601208d22418dbaa5d1dd5641eed5" style="width: 100.0%; height: 100.0%;">Viséum-musée de la lunette (collections du musée de la lunette et du musée Jourdain) ,42 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_a1728bc625c5432ab1c54646675bedfc.setContent(html_8e7601208d22418dbaa5d1dd5641eed5);
+        
+
+        marker_af8d0017b17c43d7b505077e35682cda.bindPopup(popup_a1728bc625c5432ab1c54646675bedfc)
+        ;
+
+        
+    
+    
+            var marker_5d138b7c53f84eaba03b00c7589f5fda = L.marker(
+                [43.119997, 6.130519],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_2ab12baa7da04c8d9c469a7c416badd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_5d138b7c53f84eaba03b00c7589f5fda.setIcon(icon_2ab12baa7da04c8d9c469a7c416badd7);
+        
+    
+        var popup_fe84231f44fd40c5a87b26f4be0c4d7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a84a3359e4b44bfea1acea581911f43f = $(`<div id="html_a84a3359e4b44bfea1acea581911f43f" style="width: 100.0%; height: 100.0%;">musée municipal ,86 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_fe84231f44fd40c5a87b26f4be0c4d7c.setContent(html_a84a3359e4b44bfea1acea581911f43f);
+        
+
+        marker_5d138b7c53f84eaba03b00c7589f5fda.bindPopup(popup_fe84231f44fd40c5a87b26f4be0c4d7c)
+        ;
+
+        
+    
+    
+            var marker_dd1d26fe94b340cfa1d35cd02761fc31 = L.marker(
+                [46.669265, -1.428828],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_357be83feb774144b21e2da28307fbd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_dd1d26fe94b340cfa1d35cd02761fc31.setIcon(icon_357be83feb774144b21e2da28307fbd9);
+        
+    
+        var popup_3561a19284584fc8bfb2fa26ac112ecf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd1b16ef08734c6eaff5f029b2f1c321 = $(`<div id="html_dd1b16ef08734c6eaff5f029b2f1c321" style="width: 100.0%; height: 100.0%;">musée Municipal ,84 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_3561a19284584fc8bfb2fa26ac112ecf.setContent(html_dd1b16ef08734c6eaff5f029b2f1c321);
+        
+
+        marker_dd1d26fe94b340cfa1d35cd02761fc31.bindPopup(popup_3561a19284584fc8bfb2fa26ac112ecf)
+        ;
+
+        
+    
+    
+            var marker_e370d738a0784d82828a55b6c864cfc7 = L.marker(
+                [46.80448, 4.428059],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_9176d8150e8549e89a9d26c69f863956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e370d738a0784d82828a55b6c864cfc7.setIcon(icon_9176d8150e8549e89a9d26c69f863956);
+        
+    
+        var popup_cdc7530395d5402dabb2a555f7c14cd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae998710344a4d5fb9ccbd2be840b3e5 = $(`<div id="html_ae998710344a4d5fb9ccbd2be840b3e5" style="width: 100.0%; height: 100.0%;">écomusée de la communauté Le Creusot-Monceau-les-Mines ,18 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_cdc7530395d5402dabb2a555f7c14cd7.setContent(html_ae998710344a4d5fb9ccbd2be840b3e5);
+        
+
+        marker_e370d738a0784d82828a55b6c864cfc7.bindPopup(popup_cdc7530395d5402dabb2a555f7c14cd7)
+        ;
+
+        
+    
+    
+            var marker_1e8931af69e04f308fc1de0e1d27083e = L.marker(
+                [48.693507, 6.182435],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_7fc7899438484f6b9c5f487f824630f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_1e8931af69e04f308fc1de0e1d27083e.setIcon(icon_7fc7899438484f6b9c5f487f824630f0);
+        
+    
+        var popup_105fba2574db475ba91883ee697be83b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0891d2f711bf4a7892343528dbc4b258 = $(`<div id="html_0891d2f711bf4a7892343528dbc4b258" style="width: 100.0%; height: 100.0%;">musée des Beaux-Arts ,13 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_105fba2574db475ba91883ee697be83b.setContent(html_0891d2f711bf4a7892343528dbc4b258);
+        
+
+        marker_1e8931af69e04f308fc1de0e1d27083e.bindPopup(popup_105fba2574db475ba91883ee697be83b)
+        ;
+
+        
+    
+    
+            var marker_66d278d14dcf478bbe577efb049a3a95 = L.marker(
+                [47.219276, -1.547096],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_f80c55ef41754d03a915bea797100315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_66d278d14dcf478bbe577efb049a3a95.setIcon(icon_f80c55ef41754d03a915bea797100315);
+        
+    
+        var popup_1c70c9039ca24c24b7b4d3efac93239c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4436ee1e565b49c7813e1cbd1de9fe44 = $(`<div id="html_4436ee1e565b49c7813e1cbd1de9fe44" style="width: 100.0%; height: 100.0%;">musée des Beaux-Arts ,94 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_1c70c9039ca24c24b7b4d3efac93239c.setContent(html_4436ee1e565b49c7813e1cbd1de9fe44);
+        
+
+        marker_66d278d14dcf478bbe577efb049a3a95.bindPopup(popup_1c70c9039ca24c24b7b4d3efac93239c)
+        ;
+
+        
+    
+    
+            var marker_b23ba3ec12964d778fa2b3229786e150 = L.marker(
+                [47.138661, 4.950405],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_b490bc8b220046988a6787de68dbec8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b23ba3ec12964d778fa2b3229786e150.setIcon(icon_b490bc8b220046988a6787de68dbec8a);
+        
+    
+        var popup_1b08c06c1a81435e866b8da328e7dc76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9220fa75e48e4096b8ef8d4e3c62c8fb = $(`<div id="html_9220fa75e48e4096b8ef8d4e3c62c8fb" style="width: 100.0%; height: 100.0%;">musée municipal ,18 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_1b08c06c1a81435e866b8da328e7dc76.setContent(html_9220fa75e48e4096b8ef8d4e3c62c8fb);
+        
+
+        marker_b23ba3ec12964d778fa2b3229786e150.bindPopup(popup_1b08c06c1a81435e866b8da328e7dc76)
+        ;
+
+        
+    
+    
+            var marker_d5e5bfe43009448d95b45f579b28e864 = L.marker(
+                [48.836753, 2.390394],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_edfdb100f81a4f829e3350b304b67b22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d5e5bfe43009448d95b45f579b28e864.setIcon(icon_edfdb100f81a4f829e3350b304b67b22);
+        
+    
+        var popup_6980c5e84ee84c53b12a20f086fd4ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_214b86925fce431db4f94d7f2d339334 = $(`<div id="html_214b86925fce431db4f94d7f2d339334" style="width: 100.0%; height: 100.0%;">musée national de l'histoire et des cultures de l'immigration ,97 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_6980c5e84ee84c53b12a20f086fd4ed5.setContent(html_214b86925fce431db4f94d7f2d339334);
+        
+
+        marker_d5e5bfe43009448d95b45f579b28e864.bindPopup(popup_6980c5e84ee84c53b12a20f086fd4ed5)
+        ;
+
+        
+    
+    
+            var marker_b3b57727b71a411ebde8cbaa345a506e = L.marker(
+                [49.927362, 2.92536],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_384eea570b734281b763c6fa2110323c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b3b57727b71a411ebde8cbaa345a506e.setIcon(icon_384eea570b734281b763c6fa2110323c);
+        
+    
+        var popup_4487e98c4bb34fd1b8482a9040eadb90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68a94d58d56d4f029f681e15df786aea = $(`<div id="html_68a94d58d56d4f029f681e15df786aea" style="width: 100.0%; height: 100.0%;">musée Danicourt ,11 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_4487e98c4bb34fd1b8482a9040eadb90.setContent(html_68a94d58d56d4f029f681e15df786aea);
+        
+
+        marker_b3b57727b71a411ebde8cbaa345a506e.bindPopup(popup_4487e98c4bb34fd1b8482a9040eadb90)
+        ;
+
+        
+    
+    
+            var marker_a29a2400f75a4eaca6207bf4e708d53a = L.marker(
+                [45.822521, 0.820506],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_13eb6e459e954677a9df264c84864688 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a29a2400f75a4eaca6207bf4e708d53a.setIcon(icon_13eb6e459e954677a9df264c84864688);
+        
+    
+        var popup_2cc0bfc606ba40fb9a2613a7a54b1211 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50c711dc0b6f431385899e544164b0b2 = $(`<div id="html_50c711dc0b6f431385899e544164b0b2" style="width: 100.0%; height: 100.0%;">musée départemental d'Art Contemporain ,11 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_2cc0bfc606ba40fb9a2613a7a54b1211.setContent(html_50c711dc0b6f431385899e544164b0b2);
+        
+
+        marker_a29a2400f75a4eaca6207bf4e708d53a.bindPopup(popup_2cc0bfc606ba40fb9a2613a7a54b1211)
+        ;
+
+        
+    
+    
+            var marker_bddbda89f44d419084301e269f2b03e6 = L.marker(
+                [44.349287, 2.578079],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_3a8add578fc5496fb6e47d4960f1056d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_bddbda89f44d419084301e269f2b03e6.setIcon(icon_3a8add578fc5496fb6e47d4960f1056d);
+        
+    
+        var popup_dc55a8cc9ab54bd1a29fb7bc20497c00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1c0a94510eb4ddf83c309454ab52fb2 = $(`<div id="html_e1c0a94510eb4ddf83c309454ab52fb2" style="width: 100.0%; height: 100.0%;">musée des beaux-arts Denys Puech ,13 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_dc55a8cc9ab54bd1a29fb7bc20497c00.setContent(html_e1c0a94510eb4ddf83c309454ab52fb2);
+        
+
+        marker_bddbda89f44d419084301e269f2b03e6.bindPopup(popup_dc55a8cc9ab54bd1a29fb7bc20497c00)
+        ;
+
+        
+    
+    
+            var marker_e557b9daad4f4b32bfbcafd2401194a7 = L.marker(
+                [48.90803, 3.18169],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_33ce4e87a0f345c28b8aac23b31ca2cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e557b9daad4f4b32bfbcafd2401194a7.setIcon(icon_33ce4e87a0f345c28b8aac23b31ca2cc);
+        
+    
+        var popup_0d146dcb929f495b8733f035fa85533c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e30f8cbfd10545da8f5d58719c769ab7 = $(`<div id="html_e30f8cbfd10545da8f5d58719c769ab7" style="width: 100.0%; height: 100.0%;">musée des Pays de Seine-et-Marne ,211 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_0d146dcb929f495b8733f035fa85533c.setContent(html_e30f8cbfd10545da8f5d58719c769ab7);
+        
+
+        marker_e557b9daad4f4b32bfbcafd2401194a7.bindPopup(popup_0d146dcb929f495b8733f035fa85533c)
+        ;
+
+        
+    
+    
+            var marker_ff3c531096044985b0424c5366722fcf = L.marker(
+                [48.197828, 3.284505],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_9aed1bda91fe446a96e50a3e2cbe9424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_ff3c531096044985b0424c5366722fcf.setIcon(icon_9aed1bda91fe446a96e50a3e2cbe9424);
+        
+    
+        var popup_a3636775633e409fa9db225ef0760eac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b74702c21ef47da948c478d817ab492 = $(`<div id="html_5b74702c21ef47da948c478d817ab492" style="width: 100.0%; height: 100.0%;">musée municipal ,75 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_a3636775633e409fa9db225ef0760eac.setContent(html_5b74702c21ef47da948c478d817ab492);
+        
+
+        marker_ff3c531096044985b0424c5366722fcf.bindPopup(popup_a3636775633e409fa9db225ef0760eac)
+        ;
+
+        
+    
+    
+            var marker_e398d72f2083450d894684ef7e82e6b4 = L.marker(
+                [48.817037, 2.205733],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_6e6821687a9847f2b8d2d5b8a843188e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e398d72f2083450d894684ef7e82e6b4.setIcon(icon_6e6821687a9847f2b8d2d5b8a843188e);
+        
+    
+        var popup_76c20e4102f9467db33d1e48545c909b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7caa5d052e2847efb960fbc4bdc915e1 = $(`<div id="html_7caa5d052e2847efb960fbc4bdc915e1" style="width: 100.0%; height: 100.0%;">Sèvres – Cité de la Céramique ,125 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_76c20e4102f9467db33d1e48545c909b.setContent(html_7caa5d052e2847efb960fbc4bdc915e1);
+        
+
+        marker_e398d72f2083450d894684ef7e82e6b4.bindPopup(popup_76c20e4102f9467db33d1e48545c909b)
+        ;
+
+        
+    
+    
+            var marker_8a5e59badaef4d409553e452481457f6 = L.marker(
+                [48.579654, 7.736231],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_9101a1abdb0c4af8af4e6e95a27b27cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8a5e59badaef4d409553e452481457f6.setIcon(icon_9101a1abdb0c4af8af4e6e95a27b27cf);
+        
+    
+        var popup_b6d1c3e7989041a79b4b2b8f10264645 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c695ab7977b40c39ee459db9166f777 = $(`<div id="html_0c695ab7977b40c39ee459db9166f777" style="width: 100.0%; height: 100.0%;">musée d'art moderne et contemporain de Strasbourg ,211 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_b6d1c3e7989041a79b4b2b8f10264645.setContent(html_0c695ab7977b40c39ee459db9166f777);
+        
+
+        marker_8a5e59badaef4d409553e452481457f6.bindPopup(popup_b6d1c3e7989041a79b4b2b8f10264645)
+        ;
+
+        
+    
+    
+            var marker_71d9c228cc264a00a9eb0c91e2f477b2 = L.marker(
+                [43.600678, 1.428998],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_448c881356624bf19dacd951d2a9286e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_71d9c228cc264a00a9eb0c91e2f477b2.setIcon(icon_448c881356624bf19dacd951d2a9286e);
+        
+    
+        var popup_5cec178041644d97b4bb3348c3c9f723 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21847ed3487f45cd8e156ed435a8b0fd = $(`<div id="html_21847ed3487f45cd8e156ed435a8b0fd" style="width: 100.0%; height: 100.0%;">les Abattoirs, musée d'art moderne et contemporain ,250 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_5cec178041644d97b4bb3348c3c9f723.setContent(html_21847ed3487f45cd8e156ed435a8b0fd);
+        
+
+        marker_71d9c228cc264a00a9eb0c91e2f477b2.bindPopup(popup_5cec178041644d97b4bb3348c3c9f723)
+        ;
+
+        
+    
+    
+            var marker_053cbb7b4c32432298dcdf22da445c20 = L.marker(
+                [43.594189, 1.448945],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_4a7e55a3044a42f89b071bd1168718c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_053cbb7b4c32432298dcdf22da445c20.setIcon(icon_4a7e55a3044a42f89b071bd1168718c1);
+        
+    
+        var popup_7bf571a934394b14a8458f32dcd49f9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_052d6b66c44743e0b54323cc4fd51da4 = $(`<div id="html_052d6b66c44743e0b54323cc4fd51da4" style="width: 100.0%; height: 100.0%;">muséum d'histoire naturelle ,11 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_7bf571a934394b14a8458f32dcd49f9d.setContent(html_052d6b66c44743e0b54323cc4fd51da4);
+        
+
+        marker_053cbb7b4c32432298dcdf22da445c20.bindPopup(popup_7bf571a934394b14a8458f32dcd49f9d)
+        ;
+
+        
+    
+    
+            var marker_cdce34d3baf44aebb401faab2b816ce1 = L.marker(
+                [45.990936, 4.721527],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_68e685ebb60d4222885bb3a73430eb09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cdce34d3baf44aebb401faab2b816ce1.setIcon(icon_68e685ebb60d4222885bb3a73430eb09);
+        
+    
+        var popup_1663dee331df45cab4230675193baa55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9c952d366794ec0ae1688fdc53f1bab = $(`<div id="html_a9c952d366794ec0ae1688fdc53f1bab" style="width: 100.0%; height: 100.0%;">musée Paul Dini ,29 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_1663dee331df45cab4230675193baa55.setContent(html_a9c952d366794ec0ae1688fdc53f1bab);
+        
+
+        marker_cdce34d3baf44aebb401faab2b816ce1.bindPopup(popup_1663dee331df45cab4230675193baa55)
+        ;
+
+        
+    
+    
+            var marker_3308e338c5914b4c8a19fb824fb74c40 = L.marker(
+                [50.637497, 3.148587],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_f6b1c4d093d44d12938c1b8c0517a9c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3308e338c5914b4c8a19fb824fb74c40.setIcon(icon_f6b1c4d093d44d12938c1b8c0517a9c4);
+        
+    
+        var popup_b02a5ec94eb7410fa0be1b701aabfb0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_132007b2514e489a85d0621f6772d51b = $(`<div id="html_132007b2514e489a85d0621f6772d51b" style="width: 100.0%; height: 100.0%;">LaM, Lille Métropole musée d'art moderne, d'art contemporain et d'art brut ,95 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_b02a5ec94eb7410fa0be1b701aabfb0e.setContent(html_132007b2514e489a85d0621f6772d51b);
+        
+
+        marker_3308e338c5914b4c8a19fb824fb74c40.bindPopup(popup_b02a5ec94eb7410fa0be1b701aabfb0e)
+        ;
+
+        
+    
+    
+            var marker_bf2515ae4f7e4eb587accd369a207f7d = L.marker(
+                [48.792821, 2.387072],
+                {}
+            ).addTo(map_4cdf97d70dad44698a50241e276b9820);
+        
+    
+            var icon_19a8aa678cd843e6ba7e41a6ee571562 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_bf2515ae4f7e4eb587accd369a207f7d.setIcon(icon_19a8aa678cd843e6ba7e41a6ee571562);
+        
+    
+        var popup_21aa2596a8f04e33bb18e2bba42687f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d426dad3f67449a882de9576c03e6bda = $(`<div id="html_d426dad3f67449a882de9576c03e6bda" style="width: 100.0%; height: 100.0%;">musée d'art contemporain du Val-de-Marne ,70 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_21aa2596a8f04e33bb18e2bba42687f9.setContent(html_d426dad3f67449a882de9576c03e6bda);
+        
+
+        marker_bf2515ae4f7e4eb587accd369a207f7d.bindPopup(popup_21aa2596a8f04e33bb18e2bba42687f9)
+        ;
+
+        
+    
+    
+            map_4cdf97d70dad44698a50241e276b9820.fitBounds(
+                [[42.485799, -1.547096], [50.637497, 7.736231]],
+                {}
+            );
+        
+</script>

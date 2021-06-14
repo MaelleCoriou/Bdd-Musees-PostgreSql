@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a423922e0ce4bf08a5d1ce8d64dc227 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5a423922e0ce4bf08a5d1ce8d64dc227" ></div>
+        
+</body>
+<script>    
+    
+            var map_5a423922e0ce4bf08a5d1ce8d64dc227 = L.map(
+                "map_5a423922e0ce4bf08a5d1ce8d64dc227",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+
+            
+
+        
+    
+            var tile_layer_29a450c07b174809b11658aea90a21ad = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+        
+    
+            var marker_7e2067d8eb0941b6a13d8d44663e201e = L.marker(
+                [43.580973, 7.127959],
+                {}
+            ).addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+        
+    
+            var icon_5c05e3385fa54ff688c7f3d69a64dc41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e2067d8eb0941b6a13d8d44663e201e.setIcon(icon_5c05e3385fa54ff688c7f3d69a64dc41);
+        
+    
+        var popup_07bc4a2ce3714fb2a052b34bc2acce0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9a4163fd52f4085a88795f29e168860 = $(`<div id="html_d9a4163fd52f4085a88795f29e168860" style="width: 100.0%; height: 100.0%;">CALDER ALEXANDER ,musée Picasso ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_07bc4a2ce3714fb2a052b34bc2acce0d.setContent(html_d9a4163fd52f4085a88795f29e168860);
+        
+
+        marker_7e2067d8eb0941b6a13d8d44663e201e.bindPopup(popup_07bc4a2ce3714fb2a052b34bc2acce0d)
+        ;
+
+        
+    
+    
+            var marker_004ed36571dc48209fa13ea9ffa38e11 = L.marker(
+                [45.194026, 5.732094],
+                {}
+            ).addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+        
+    
+            var icon_57319dcd997349ecac16bac14199b52e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_004ed36571dc48209fa13ea9ffa38e11.setIcon(icon_57319dcd997349ecac16bac14199b52e);
+        
+    
+        var popup_0afbb86ac48c4ba583ba148fa0dbfcb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d42fd0f360334f329d76da5f4bc7d1bb = $(`<div id="html_d42fd0f360334f329d76da5f4bc7d1bb" style="width: 100.0%; height: 100.0%;">CALDER ALEXANDER ,musée de Grenoble ,3 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_0afbb86ac48c4ba583ba148fa0dbfcb2.setContent(html_d42fd0f360334f329d76da5f4bc7d1bb);
+        
+
+        marker_004ed36571dc48209fa13ea9ffa38e11.bindPopup(popup_0afbb86ac48c4ba583ba148fa0dbfcb2)
+        ;
+
+        
+    
+    
+            var marker_d43d96746fce495f8cc5bd391ad781d3 = L.marker(
+                [48.109837, -1.674981],
+                {}
+            ).addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+        
+    
+            var icon_8cece95e05944cf1ab65ca28d4e18aa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d43d96746fce495f8cc5bd391ad781d3.setIcon(icon_8cece95e05944cf1ab65ca28d4e18aa0);
+        
+    
+        var popup_0a772c2a12464db1b12ba43596b01260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ed27a6bdfda4c169037a29a392f1912 = $(`<div id="html_0ed27a6bdfda4c169037a29a392f1912" style="width: 100.0%; height: 100.0%;">CALDER ALEXANDER ,musée des Beaux-Arts ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_0a772c2a12464db1b12ba43596b01260.setContent(html_0ed27a6bdfda4c169037a29a392f1912);
+        
+
+        marker_d43d96746fce495f8cc5bd391ad781d3.bindPopup(popup_0a772c2a12464db1b12ba43596b01260)
+        ;
+
+        
+    
+    
+            var marker_5e8cc08224a340fa94972742111d36db = L.marker(
+                [48.817037, 2.205733],
+                {}
+            ).addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+        
+    
+            var icon_0ba06518d0bf47af9b8c465237f8fe19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e8cc08224a340fa94972742111d36db.setIcon(icon_0ba06518d0bf47af9b8c465237f8fe19);
+        
+    
+        var popup_041050a4298d4dc187349f632a177600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a968d430523c462b9ce0ba84da79c5d0 = $(`<div id="html_a968d430523c462b9ce0ba84da79c5d0" style="width: 100.0%; height: 100.0%;">CALDER ALEXANDER ,Sèvres – Cité de la Céramique ,4 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_041050a4298d4dc187349f632a177600.setContent(html_a968d430523c462b9ce0ba84da79c5d0);
+        
+
+        marker_5e8cc08224a340fa94972742111d36db.bindPopup(popup_041050a4298d4dc187349f632a177600)
+        ;
+
+        
+    
+    
+            var marker_ae87df091f074b94b0876ad7667655b5 = L.marker(
+                [46.562137, 4.910839],
+                {}
+            ).addTo(map_5a423922e0ce4bf08a5d1ce8d64dc227);
+        
+    
+            var icon_3f3e52d87097437787ffd393880b58fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae87df091f074b94b0876ad7667655b5.setIcon(icon_3f3e52d87097437787ffd393880b58fd);
+        
+    
+        var popup_77e06a38333b410cb312577f721f5a27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49a526e105ee4eeb8aa8fc6d432a4e7c = $(`<div id="html_49a526e105ee4eeb8aa8fc6d432a4e7c" style="width: 100.0%; height: 100.0%;">CALDER ALEXANDER ,musée Greuze - hôtel-Dieu ,1 Oeuvre(s) exposée(s)</div>`)[0];
+            popup_77e06a38333b410cb312577f721f5a27.setContent(html_49a526e105ee4eeb8aa8fc6d432a4e7c);
+        
+
+        marker_ae87df091f074b94b0876ad7667655b5.bindPopup(popup_77e06a38333b410cb312577f721f5a27)
+        ;
+
+        
+    
+    
+            map_5a423922e0ce4bf08a5d1ce8d64dc227.fitBounds(
+                [[43.580973, -1.674981], [48.817037, 7.127959]],
+                {}
+            );
+        
+</script>
