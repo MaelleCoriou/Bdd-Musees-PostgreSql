@@ -11,13 +11,13 @@ Pour se faire, le directeur de l’agence souhaite avoir accès aux données des
 
 ## Périmètre du projet
 
-→ Développement d’une base de données relationnelle sous Postgres Sql :
-   - Création d’une base socle, import fichiers CSV Joconde
-   - Update BDD automatisée via requêtes de l’API Joconde
+1. Développement d’une base de données relationnelle sous Postgres Sql :
+<br/>    → Création d’une base socle, import fichiers CSV Joconde
+<br/>    → Update BDD automatisée via requêtes de l’API Joconde
 
-→ Analyse BDD sous requêtes SQL et valorisation du contenu selon les besoins
+2. Analyse BDD sous requêtes SQL et valorisation du contenu selon les besoins
 
-→ Datavizualisation des résultats sous Dash
+3. Datavizualisation des résultats sous Dash
 
 
 ## Sources de données
@@ -41,56 +41,81 @@ Jeu de données sous licence ouverte : Licence Ouverte Version 2.0 (etalab.gouv.
 
 ## Arborescence des dossiers du projet
 
-|__ Documentation                           
-|__ Licences
-|__ Version_4
-|   |__ Backup_Bdd
-|   |   |__ Backup_Files
-|   |__ Data
-|   |   |__ Csv_Bdd
-|   |   |__ Maj
-|   |__ Sources
-|   |__ Viz
-|   |   |__ Html
-|   |__ 01-01-Nettoyage-Base-Museo.py
-|   |__ 01-02-Nettoyage-Base-Joconde.py
-|   |__ 02-01-Crea_Tables_Data_Musee.py
-|   |__ 02-02-Api_Maj_Domaine.py
-|   |__ 02-03-Insertion_Data.py
-|   |__ 03-01-Repertoire-Metadata.py
-|   |__ 04-01-Requetes_SQL_Bdd.ipynb
-|__ README.md
-|__ requirements.txt
+    ├── Documentation    
+    │   ├── CORIOU Maelle - Dossier Certification Data Nantes 2021.pdf     ---> Rapport du projet
+    │   ├── Cahier_des_charges_Go_Explore.pdf
+    │   ├── E-A_SCHEMA.png
+    │   ├── ER_SCHEMA_Bdd.png
+    │   ├── MLD.png
+    │   ├── Planning_Projet_Go_Explore.png
+    │   ├── Projet Go Explore _ “Sur la route des Artistes”.pdf            ---> Présentation slides pour l'oral
+    │   ├── Schema_ETL_AP.png
+    │   └── Schema_Fonctionnel.png
+    │                     
+    ├── Licences
+    │   ├── ETALAB-Licence-Ouverte-v2.0.pdf
+    │   └── Open Data-Ministère de la Culture.pdf
+    │   
+    ├── Scripts
+    │   ├── Backup_Bdd
+    │   │   ├── Backup_Files
+    │   │   │   └── backup-20210518170000-113742.zip
+    │   │   │
+    │   │   ├── app.py
+    │   │   └── backup.py
+    │   │   
+    │   ├── 01-01-Nettoyage-Base-Museo.py
+    │   ├── 01-02-Nettoyage-Base-Joconde.py
+    │   ├── 02-01-Crea_Tables_Data_Musee.py
+    │   ├── 02-02-Api_Maj_Domaine.py
+    │   ├── 02-03-Insertion_Data.py
+    │   ├── 03-01-Repertoire-Metadata.py
+    │   ├── 04-01-Requetes_SQL_Bdd.ipynb
+    │   └── 05-02-Donnees-Geo-Google-API.py
+    │   
+    ├── Data
+    │   ├── Csv_Bdd
+    │   │   └── ....
+    │   │   │
+    │   └── Sources
+    │       └── ...
+    │   
+    ├── Viz
+    │   └── Html
+    │   │   └── ...
+    │   │   
+    │   └── Assets
+    │   │   └── ...
+    │   │
+    │   ├── Viz.ipynb
+    │   ├── Viz.py                                                         ---> Application Dash  
+    │   └── functions_PgSql.py    
+    │                                          
+    ├── README.md
+    │
+    └── requirements.txt
 
 
 ### Pré-requis
 
-#### Langages : 
-python==3.8.6
-<br/>PostgreSql==4.28
+Pour la réalisation du projet, utilisation des langages et Librairies suivants :
 
-#### Librairies :
-<br/>dash==1.20.0
-<br/>Flask==1.1.2
-<br/>folium==0.12.1
-<br/>jupyterlab==2.2.9
-<br/>matplotlib==3.3.2
-<br/>numpy==1.19.3
-<br/>pandas==1.1.3
-<br/>plotly==4.14.3
-<br/>psycopg2==2.8.6
-<br/>pymongo==3.11.2
-<br/>requests==2.24.0
-<br/>schedule==1.0.0
-<br/>SQLAlchemy==1.3.20
+   - Python 3.8.6 (+ requirements.txt)
+        
+   - Logiciels : 
+       - Dbeaver 21.0.0
+       - PostGreSQL 13
+       - VS Code 1.56
+       - MongoDB 4.4.2
 
-#### Outils :
-<br/>Dbeaver 21.0.0
-<br/>Git Bash 
-<br/>Jupyter NoteBook
-<br/>MongoDb Compass
-<br/>Pg Admin 4.28 pour PostgreSql
-<br/>Visual Studio Code
+   - Librairies :
+       - Dash 1.20
+       - Flask 1.1.2
+       - folium 0.12.1
+       - Pandas 1.2.3
+       - Psycopg2 2.8.6
+       - SQLAlchemy 1.3.20
+       - JupyterLab 3.0.12#### Librairies :
 
 
 ### Installation
@@ -100,10 +125,10 @@ Exécuter les scripts Pyhton dans l'ordre de la liste des fichiers.
 
 ## Versions
 
-**Dernière version :** 4.0
+**Dernière version :** 3.0
 
 
-## Auteurs
+## Auteur
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 * **Maëlle Coriou** _alias_ [@MaelleCoriou](https://github.com/MaelleCoriou)
@@ -113,11 +138,11 @@ Exécuter les scripts Pyhton dans l'ordre de la liste des fichiers.
 Jeu de données sous licence ouverte : Licence Ouverte Version 2.0 (etalab.gouv.fr)
 <br/>[Licence](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
 
-Données base Joconde originales téléchargées sur 
+Données base Joconde originales téléchargées sur :
 <br/>https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/export/, 
 <br/>mise à jour du 26 février 2021.
 
-Données base Muséofile originales téléchargées sur 
+Données base Muséofile originales téléchargées sur :
 <br/>https://data.culture.gouv.fr/explore/dataset/musees-de-france-base-museofile/export/, 
 <br/>mise à jour du 25 juin 2019.
 
