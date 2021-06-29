@@ -76,7 +76,7 @@ Jeu de données sous licence ouverte : Licence Ouverte Version 2.0 (etalab.gouv.
     ├── Data
     │   ├── Csv_Bdd
     │   │   └── ....
-    │   │   │
+    │   │   
     │   └── Sources
     │       └── ...
     │   
@@ -115,7 +115,7 @@ Pour la réalisation du projet, utilisation des langages et Librairies suivants 
        - Pandas 1.2.3
        - Psycopg2 2.8.6
        - SQLAlchemy 1.3.20
-       - JupyterLab 3.0.12#### Librairies :
+       - JupyterLab 3.0.12
 
 
 ### Installation
